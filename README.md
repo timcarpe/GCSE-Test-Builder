@@ -67,10 +67,6 @@ Adding new exams is possible via the plugin system.
 - [Architecture Overview](docs/architecture/README.md)
 - [Plugin Development](scripts/Plugin%20Generation/README.md)
 
-## Contributing
-
-Contributions welcome! Please read the architecture documentation first.
-
 ## License
 
 Polyform Noncommercial License 1.0.0 - See [LICENSE.txt](LICENSE.txt)
