@@ -66,6 +66,10 @@ class MainWindow(QMainWindow):
         about_action.triggered.connect(self._show_about)
         help_menu.addAction(about_action)
         
+        support_action = QAction("Support", self)
+        support_action.triggered.connect(self._open_support_page)
+        help_menu.addAction(support_action)
+        
         # Storage Menu
         storage_menu = self.menu_bar.addMenu("Storage")
         
@@ -947,6 +951,11 @@ class MainWindow(QMainWindow):
             except queue.Empty:
                 break
 
+    def _open_support_page(self):
+        """Open Ko-Fi support page in browser."""
+        import webbrowser
+        webbrowser.open("https://ko-fi.com/timcarpe")
+
     def _show_about(self):
         QMessageBox.about(
             self,
@@ -956,6 +965,7 @@ class MainWindow(QMainWindow):
             "<p>A tool for extracting and building GCSE exams.</p>"
             "<p>Created by Timothy Carpenter</p>"
             "<p>Removing barriers to education.</p>"
+            '<p><a href="https://ko-fi.com/timcarpe">Support me on Ko-Fi ☕</a></p>'
             '<p>Copyright 2026 Timothy Carpenter<br>'
             'Licensed under the <a href="https://polyformproject.org/licenses/noncommercial/1.0.0/">Polyform Noncommercial License 1.0.0</a></p>'
         )

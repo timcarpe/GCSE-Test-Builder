@@ -16,7 +16,7 @@ a = Analysis(
         'PIL',
         'PIL.Image',
         'PIL.ImageQt',
-        'fitz',
+        'fitz',  # PyMuPDF
         'yaml',
         'sklearn',
         'sklearn.linear_model',
