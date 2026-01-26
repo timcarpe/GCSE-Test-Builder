@@ -1,0 +1,1473 @@
+{
+  "01. Understanding business activity": {
+    "description": "Including: classification, companies, employed, enterprise, enterprises, entrepreneurs, external, groups, grow, growth, internal, measuring, objectives, public, public sector, remain small, sector, size, stakeholder, stakeholder groups",
+    "patterns": [
+      {
+        "pattern": "\\bclassification\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcompanies\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bemployed\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\benterprise\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\benterprises\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bentrepreneurs\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bexternal\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgroups\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgrow\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgrowth\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\binternal\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bmeasuring\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bobjectives\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpublic\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpublic\\ sector\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bremain\\ small\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsector\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsize\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstakeholder\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstakeholder\\ groups\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdefine\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bentrepreneur\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdefine[\\s\\-]*entrepreneur\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsole\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsole[\\s\\-]*trader\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btrader\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdefine[\\s\\-]*business\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcharacteristic\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsole\\s*trader\\b",
+        "weight": 2.1999999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blimited\\s*company\\b",
+        "weight": 1.9999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbusiness\\s*organisation\\b",
+        "weight": 1.8999999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bprivate\\s*limited\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btrader\\s*private\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdisadvantage\\b",
+        "weight": 0.7,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\badvantage\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bbuying\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbuying[\\s\\-]*franchise\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbuying[\\s\\-]*franchise[\\s\\-]*advantage\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbusiness\\b",
+        "weight": 0.7,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\bbusiness[\\s\\-]*plan\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdefine[\\s\\-]*business[\\s\\-]*plan\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "02. People in business": {
+    "description": "Including: barriers, communication, communication barriers, difference, dismissal, employees, employment, leadership, leadership styles, legal, limitations, management, motivation, over employment, recruitment, recruitment selection, reduced, selection, training, workforce",
+    "patterns": [
+      {
+        "pattern": "\\bbarriers\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcommunication\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcommunication\\ barriers\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdifference\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdismissal\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bemployees\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bemployment\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bleadership\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bleadership\\ styles\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blegal\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\blimitations\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmanagement\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmotivation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bover\\ employment\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\brecruitment\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\brecruitment\\ selection\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\breduced\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bselection\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btraining\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bworkforce\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bjob\\s*rotation\\b",
+        "weight": 2.1999999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\buse\\s*motivate\\b",
+        "weight": 1.4,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmotivate\\s*its\\b",
+        "weight": 1.9999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpiece\\s*rate\\b",
+        "weight": 1.4,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bits\\s*managers\\b",
+        "weight": 1.8999999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcharacteristic\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdefine[\\s\\-]*span\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdefine[\\s\\-]*span[\\s\\-]*of\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bof[\\s\\-]*control\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bspan\\b",
+        "weight": 1.4499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bspan[\\s\\-]*of\\b",
+        "weight": 1.4499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bspan[\\s\\-]*of[\\s\\-]*control\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdefine\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bhygiene\\s*factor\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bchain\\s*command\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdefine\\s*span\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bspan\\s*control\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btwo\\s*characteristics\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcommission\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdefine[\\s\\-]*commission\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdefine[\\s\\-]*delegation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdelegation\\b",
+        "weight": 1.2999999999999998,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcharacteristic\\s*characteristic\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdrawback\\s*explanation\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\busing\\s*internal\\b",
+        "weight": 1.4999999999999998,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\binternal\\s*recruitment\\b",
+        "weight": 1.4999999999999998,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnew\\s*managers\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btwo[\\s\\-]*reasons\\b",
+        "weight": 0.85,
+        "low_weight_count": 1
+      },
+      {
+        "pattern": "\\btwo[\\s\\-]*reasons[\\s\\-]*why\\b",
+        "weight": 0.85,
+        "low_weight_count": 1
+      },
+      {
+        "pattern": "\\btwo\\s*reasons\\b",
+        "weight": 1.1500000000000001,
+        "low_weight_count": 1
+      },
+      {
+        "pattern": "\\bsuccessful\\s*entrepreneur\\b",
+        "weight": 1.125,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bentrepreneur\\s*characteristic\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bexternal\\s*recruitment\\b",
+        "weight": 1.3499999999999999,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwhy\\s*people\\b",
+        "weight": 1.125,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bchain\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bchain[\\s\\-]*of\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bchain[\\s\\-]*of[\\s\\-]*command\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcommand\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "03. Marketing": {
+    "description": "Including: competition, customer, customer needs, cycle, data, foreign markets, life, life cycle, limitations, market, market research, marketing, marketing mix, markets, price, pricing, product, product life, promotion, research",
+    "patterns": [
+      {
+        "pattern": "\\bcompetition\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcustomer\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcustomer\\ needs\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcycle\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdata\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bforeign\\ markets\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blife\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blife\\ cycle\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blimitations\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmarket\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmarket\\ research\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmarketing\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmarketing\\ mix\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmarkets\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bprice\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpricing\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bproduct\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bproduct\\ life\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpromotion\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bresearch\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdefine[\\s\\-]*licensing\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blicensing\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bselling\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\brole\\b",
+        "weight": 0.7,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\bsocial\\s*media\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bselling\\s*through\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthrough\\s*own\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bown\\s*shop\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bshop\\s*selling\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbenefit\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bway[\\s\\-]*way\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbrand\\b",
+        "weight": 1.4499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbrand[\\s\\-]*image\\b",
+        "weight": 1.4499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgood\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgood[\\s\\-]*brand\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bhaving\\s*good\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgood\\s*brand\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbrand\\s*image\\b",
+        "weight": 1.6499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bway[\\s\\-]*way[\\s\\-]*way\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcalculate[\\s\\-]*the[\\s\\-]*value\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcost\\b",
+        "weight": 0.85,
+        "low_weight_count": 1
+      },
+      {
+        "pattern": "\\bidentify[\\s\\-]*two[\\s\\-]*roles\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bof[\\s\\-]*packaging[\\s\\-]*role\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfinal\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfinal[\\s\\-]*answer\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "04. Operations management": {
+    "description": "Including: analysis, break-even, break-even analysis, chart, costs, data, diseconomies, economies, goods, help, increasing, lean, lean production, limitations, location, manufacturing, production, productivity, quality, scale",
+    "patterns": [
+      {
+        "pattern": "\\banalysis\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbreak\\-even\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbreak\\-even\\ analysis\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bchart\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcosts\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdata\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bdiseconomies\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\beconomies\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgoods\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bhelp\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bincreasing\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blean\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blean\\ production\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blimitations\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blocation\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmanufacturing\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bproduction\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bproductivity\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bquality\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bscale\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcould\\s*increase\\b",
+        "weight": 1.8999999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bintroducing\\s*new\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnew\\s*technology\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bincrease\\s*added\\b",
+        "weight": 1.8999999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\badded\\s*value\\b",
+        "weight": 1.8999999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\badvantage\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\binventory\\b",
+        "weight": 1.4499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwhen\\s*deciding\\b",
+        "weight": 1.7499999999999998,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\braw\\s*materials\\b",
+        "weight": 1.0750000000000002,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bconsider\\s*when\\b",
+        "weight": 1.0750000000000002,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btwo\\s*factors\\b",
+        "weight": 1.7499999999999998,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\brole\\s*role\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdisadvantage\\b",
+        "weight": 0.7,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\brole\\b",
+        "weight": 0.7,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\binventory\\s*advantage\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btwo\\s*ways\\b",
+        "weight": 1.05,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpurchasing\\s*technical\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btechnical\\s*financial\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bimproving\\s*labour\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\baverage\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\baverage[\\s\\-]*cost\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdefine[\\s\\-]*average\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdefine[\\s\\-]*average[\\s\\-]*cost\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\brole[\\s\\-]*role\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\breason[\\s\\-]*explanation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bexplanation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbenefit\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "05. Financial information and decisions": {
+    "description": "Including: accounts, capital, cash, cash-flow, cash-flow forecast, finance, finance needs, financial, financial position, income, income statements, position, profit, ratio, short-term, sources, statement, statements, working, working capital",
+    "patterns": [
+      {
+        "pattern": "\\baccounts\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcapital\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcash\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcash\\-flow\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcash\\-flow\\ forecast\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfinance\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfinance\\ needs\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfinancial\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfinancial\\ position\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bincome\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bincome\\ statements\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bposition\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bprofit\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bratio\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bshort\\-term\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsources\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstatement\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstatements\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bworking\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bworking\\ capital\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcalculate\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcalculate[\\s\\-]*and\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnon\\-current\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\boption\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bappendix\\s*which\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\binterest\\s*rates\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgreater\\s*risk\\b",
+        "weight": 1.7999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdecrease\\s*taxes\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bincrease\\s*interest\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcurrent\\b",
+        "weight": 1.4499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bliabilities\\b",
+        "weight": 1.4499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bshareholders\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bexpense\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcurrent[\\s\\-]*liabilities\\b",
+        "weight": 1.4499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdefine[\\s\\-]*current\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdefine[\\s\\-]*current[\\s\\-]*liabilities\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bway\\s*explanation\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bliquidity\\s*ratios\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bemployees\\s*shareholders\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bshareholders\\s*competitor\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcompetitor\\s*considering\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcapital[\\s\\-]*employed\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdefine[\\s\\-]*capital\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdefine[\\s\\-]*capital[\\s\\-]*employed\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdefine[\\s\\-]*shareholders\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpossible\\b",
+        "weight": 0.85,
+        "low_weight_count": 1
+      },
+      {
+        "pattern": "\\btwo[\\s\\-]*possible\\b",
+        "weight": 0.85,
+        "low_weight_count": 1
+      },
+      {
+        "pattern": "\\bexternal[\\s\\-]*user\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\boutline[\\s\\-]*two[\\s\\-]*possible\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "06. External influences on business activity": {
+    "description": "Including: country, cycle, domestic, domestic product, economic, economy, environment, environmental, ethical, exchange, exchange rate, external, gdp, globalisation, government, gross, opportunities, product gdp, rate, respond",
+    "patterns": [
+      {
+        "pattern": "\\bcountry\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcycle\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdomestic\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdomestic\\ product\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\beconomic\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\beconomy\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\benvironment\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\benvironmental\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bethical\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bexchange\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bexchange\\ rate\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bexternal\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bglobalisation\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgovernment\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgross\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bopportunities\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bproduct\\ gdp\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\brate\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\brespond\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bway[\\s\\-]*way\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btwo[\\s\\-]*ways\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bways\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmultinational\\s*company\\b",
+        "weight": 2.0999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcould\\s*contribute\\b",
+        "weight": 1.9999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcontribute\\s*sustainable\\b",
+        "weight": 1.4,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsustainable\\s*development\\b",
+        "weight": 1.9999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdevelopment\\s*way\\b",
+        "weight": 1.4,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdefine[\\s\\-]*external\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdefine[\\s\\-]*inflation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\binflation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcosts\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bexternal[\\s\\-]*costs\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthreat\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bimport\\b",
+        "weight": 1.4499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bintroduced\\s*sports\\b",
+        "weight": 1.4,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthreat\\s*explanation\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bimport\\s*tariff\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsports\\s*helmets\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\breason\\b",
+        "weight": 0.7,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\bbenefits\\b",
+        "weight": 0.7,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\bdefine[\\s\\-]*external[\\s\\-]*benefits\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bexternal[\\s\\-]*benefits\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bidentify\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bidentify[\\s\\-]*two\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\breason[\\s\\-]*reason\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\buser\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmight\\s*affect\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  }
+}

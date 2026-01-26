@@ -1,0 +1,12 @@
+{
+  "manifest_schema_version": 3,
+  "code": "0653",
+  "name": "Combined Science 0653",
+  "subtopics_path": "topic_subtopics.json",
+  "default": false,
+  "supported_years": [],
+  "generated_at": "2026-01-12T13:30:34.485755+00:00",
+  "generator_version": "1.0.0",
+  "board": "Cambridge",
+  "model": "models/topic_model.joblib"
+}

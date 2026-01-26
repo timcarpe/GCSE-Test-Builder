@@ -1,0 +1,12 @@
+{
+  "manifest_schema_version": 3,
+  "code": "0478",
+  "name": "Computer Science 0478",
+  "subtopics_path": "topic_subtopics.json",
+  "default": false,
+  "supported_years": [],
+  "generated_at": "2026-01-15T02:46:13.517196+00:00",
+  "generator_version": "1.0.0",
+  "board": "Cambridge",
+  "model": "models/topic_model.joblib"
+}

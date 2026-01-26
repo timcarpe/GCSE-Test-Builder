@@ -1,0 +1,108 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://gcse-toolkit.local/schemas/question.schema.json",
+  "title": "Question V2 Schema (v9)",
+  "description": "Schema for V2 question discovery metadata (questions.json / questions.jsonl)",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "question_id",
+    "exam_code",
+    "year",
+    "paper",
+    "variant",
+    "question_number",
+    "topic",
+    "relative_path",
+    "is_valid"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "const": 9,
+      "description": "Schema version (must be 9)"
+    },
+    "question_id": {
+      "type": "string",
+      "description": "Unique identifier like '0478_s24_qp_12_q1'",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "exam_code": {
+      "type": "string",
+      "description": "4-digit exam code",
+      "pattern": "^[0-9]{4}$"
+    },
+    "year": {
+      "type": "integer",
+      "description": "Exam year",
+      "minimum": 2000,
+      "maximum": 2100
+    },
+    "paper": {
+      "type": "integer",
+      "description": "Paper number",
+      "minimum": 1,
+      "maximum": 9
+    },
+    "variant": {
+      "type": "integer",
+      "description": "Variant number",
+      "minimum": 1,
+      "maximum": 9
+    },
+    "question_number": {
+      "type": "integer",
+      "description": "Question number",
+      "minimum": 1
+    },
+    "total_marks": {
+      "type": "integer",
+      "description": "Total marks for the question"
+    },
+    "part_count": {
+      "type": "integer",
+      "description": "Number of leaf parts"
+    },
+    "topic": {
+      "type": "string",
+      "description": "Main topic classification"
+    },
+    "sub_topics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Additional topic classifications"
+    },
+    "child_topics": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "Mapping of part labels to their detected topics"
+    },
+    "relative_path": {
+      "type": "string",
+      "description": "Relative path to question directory from cache root"
+    },
+    "root_text": {
+      "type": "string",
+      "description": "Extracted sanitized text from question header"
+    },
+    "child_text": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "Mapping of part label to sanitized extracted text"
+    },
+    "markscheme_path": {
+      "type": "string",
+      "description": "Optional relative path to mark scheme image"
+    },
+    "is_valid": {
+      "type": "boolean",
+      "description": "Whether the question passed all extraction validation checks"
+    }
+  }
+}

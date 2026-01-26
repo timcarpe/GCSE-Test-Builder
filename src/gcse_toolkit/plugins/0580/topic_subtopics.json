@@ -1,0 +1,2286 @@
+{
+  "01. Number": {
+    "description": "Including: billion, convert, integers, integers positive, natural, natural numbers, negative, number, numbers, positive, six, six billion, tasks, words",
+    "patterns": [
+      {
+        "pattern": "\\bbillion\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bconvert\\b",
+        "weight": 0.5499999999999998,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bintegers\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bintegers\\ positive\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnatural\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnatural\\ numbers\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnegative\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnumber\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bnumbers\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bpositive\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsix\\ billion\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btasks\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwords\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwrite\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwork\\s*out\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bprime\\s*number\\b",
+        "weight": 2.1999999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*amount\\b",
+        "weight": 2.0999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstandard\\s*form\\b",
+        "weight": 2.0999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbus\\s*pass\\b",
+        "weight": 1.5,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*table\\b",
+        "weight": 0.8166666666666667,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bcorrect\\s*the\\b",
+        "weight": 1.2333333333333334,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*nearest\\b",
+        "weight": 1.6833333333333331,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bvalue\\s*the\\b",
+        "weight": 1.4,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbottle\\s*bottle\\b",
+        "weight": 1.4,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*smallest\\b",
+        "weight": 1.5999999999999999,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*next\\b",
+        "weight": 1.1500000000000001,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*reciprocal\\b",
+        "weight": 1.5999999999999999,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\byear\\s*the\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*house\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\b1st\\s*january\\b",
+        "weight": 1.4,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*time\\b",
+        "weight": 1.125,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*percentage\\b",
+        "weight": 1.225,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpercentage\\s*increase\\b",
+        "weight": 1.45,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bincrease\\s*the\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcomplete\\s*the\\b",
+        "weight": 1.225,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcalculate\\s*the\\b",
+        "weight": 1.1833333333333333,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*ratio\\b",
+        "weight": 1.25,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfor\\s*years\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\brate\\s*per\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "02. Algebra and graphs": {
+    "description": "Including: algebra, algebraic, algebraic expressions, algebraic manipulation, answer, brackets involving, collecting like, expand, expand products, expressions, generalised numbers, means give, numbers, products, simplest form, simplify, simplify expressions, simplify means, substitute numbers, two brackets",
+    "patterns": [
+      {
+        "pattern": "\\balgebra\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\balgebraic\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\balgebraic\\ expressions\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\balgebraic\\ manipulation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\banswer\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbrackets\\ involving\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcollecting\\ like\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bexpand\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bexpand\\ products\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bexpressions\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgeneralised\\ numbers\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmeans\\ give\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnumbers\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bproducts\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsimplest\\ form\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsimplify\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsimplify\\ expressions\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsimplify\\ means\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsubstitute\\ numbers\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btwo\\ brackets\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfind\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bwhen\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfind[\\s\\-]*when\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*value\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*value[\\s\\-]*of\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bvalue[\\s\\-]*of\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bvalue\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfind[\\s\\-]*the[\\s\\-]*value\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*value\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfind\\s*when\\b",
+        "weight": 1.4,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bterms\\s*for\\b",
+        "weight": 1.4,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbag\\s*popcorn\\b",
+        "weight": 1.4,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbottle\\s*water\\b",
+        "weight": 1.4,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bexpression\\s*terms\\b",
+        "weight": 1.5,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdown\\s*expression\\b",
+        "weight": 1.5,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsquares\\s*diagram\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bshe\\s*spends\\b",
+        "weight": 1.7499999999999998,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bspends\\s*running\\b",
+        "weight": 1.7499999999999998,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnumber\\s*white\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwhite\\s*squares\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btheir\\s*home\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfrom\\s*the\\b",
+        "weight": 0.9,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\bmake\\s*the\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpopcorn\\s*and\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwater\\s*bag\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bapple\\s*juice\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmango\\s*juice\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*baker\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcorrect\\s*evaluation\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\binto\\s*their\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwhite\\s*paper\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpaper\\s*costs\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcosts\\s*cents\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "03. Coordinate geometry": {
+    "description": "Including: cartesian coordinates, coordinates, equation, equations, extended, find, form, gradient, graph, graphs, line, linear, linear graphs, lines, only, parallel, straight, straight line, straight-line, y-intercept",
+    "patterns": [
+      {
+        "pattern": "\\bcartesian\\ coordinates\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcoordinates\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bequation\\b",
+        "weight": 1.4499999999999997,
+        "low_weight_count": 1
+      },
+      {
+        "pattern": "\\bequations\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bextended\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfind\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bform\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgradient\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgraph\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgraphs\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bline\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\blinear\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blinear\\ graphs\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blines\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bonly\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bparallel\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstraight\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstraight\\ line\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstraight\\-line\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\by\\-intercept\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdistance\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\band[\\s\\-]*km\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbetween[\\s\\-]*and[\\s\\-]*km\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdistance[\\s\\-]*between[\\s\\-]*and\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bout[\\s\\-]*the[\\s\\-]*actual\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgrid[\\s\\-]*draw\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*grid[\\s\\-]*draw\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bactual\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*shortest\\b",
+        "weight": 1.7999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bshortest\\s*distance\\b",
+        "weight": 1.7999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bturning\\s*points\\b",
+        "weight": 1.7999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*x\\-coordinate\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdraw\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bgrid\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bon[\\s\\-]*the[\\s\\-]*grid\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*grid\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bof[\\s\\-]*the[\\s\\-]*car\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blength[\\s\\-]*of[\\s\\-]*mn\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgrid\\s*draw\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgraph[\\s\\-]*of\\b",
+        "weight": 1.2999999999999998,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsketch[\\s\\-]*the[\\s\\-]*graph\\b",
+        "weight": 1.2999999999999998,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*graph\\b",
+        "weight": 1.2999999999999998,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*graph[\\s\\-]*of\\b",
+        "weight": 1.2999999999999998,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdown[\\s\\-]*the\\b",
+        "weight": 0.7,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\bof[\\s\\-]*mn\\b",
+        "weight": 1.15,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfind[\\s\\-]*the[\\s\\-]*length\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*length\\b",
+        "weight": 0.85,
+        "low_weight_count": 1
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*length[\\s\\-]*of\\b",
+        "weight": 0.85,
+        "low_weight_count": 1
+      },
+      {
+        "pattern": "\\bwrite[\\s\\-]*down[\\s\\-]*the\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdown[\\s\\-]*the[\\s\\-]*equation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bequation[\\s\\-]*of\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*equation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "04. Geometry": {
+    "description": "Including: angle, angle sum, angles, bearing, equal, explanations, geometrical, geometry, give, line, mathematics, nets, point, polygons, properties, quadrilaterals, subject, sum, triangles, unknown angles",
+    "patterns": [
+      {
+        "pattern": "\\bangle\\b",
+        "weight": 0.5499999999999998,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bangle\\ sum\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bangles\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbearing\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bequal\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bexplanations\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgeometrical\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgeometry\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgive\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bline\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bmathematics\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnets\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpoint\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bpolygons\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bproperties\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bquadrilaterals\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsubject\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\btriangles\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bunknown\\ angles\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsymmetry\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdown[\\s\\-]*the\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bwrite[\\s\\-]*down[\\s\\-]*the\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bdown[\\s\\-]*the[\\s\\-]*mathematical\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmathematical\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*mathematical\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdraw\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bmathematical[\\s\\-]*name\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*mathematical\\b",
+        "weight": 2.1999999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmathematical\\s*name\\b",
+        "weight": 2.0999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdraw\\s*all\\b",
+        "weight": 1.9999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*lines\\b",
+        "weight": 1.1,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blines\\s*symmetry\\b",
+        "weight": 1.4,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*diagram\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\brotational\\b",
+        "weight": 1.4499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\brotational[\\s\\-]*symmetry\\b",
+        "weight": 1.4499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnet[\\s\\-]*of\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnet[\\s\\-]*of[\\s\\-]*the\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcomplete[\\s\\-]*the[\\s\\-]*statement\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstatement\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bshow[\\s\\-]*that\\b",
+        "weight": 0.7,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\bshow[\\s\\-]*that[\\s\\-]*ef\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthat[\\s\\-]*ef\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbearing[\\s\\-]*of\\b",
+        "weight": 1.15,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*bearing\\b",
+        "weight": 1.15,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*bearing[\\s\\-]*of\\b",
+        "weight": 1.15,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmeasure\\b",
+        "weight": 0.85,
+        "low_weight_count": 1
+      },
+      {
+        "pattern": "\\bthe\\s*bearing\\b",
+        "weight": 1.45,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmeasure\\s*the\\b",
+        "weight": 1.225,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*length\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*length[\\s\\-]*of\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bscale\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "05. Mensuration": {
+    "description": "Including: area, calculations, calculations involving, compound, compound shapes, cone, curved surface, cylinder, formulas, involving, out, out calculations, parts, prism, shapes, sphere, surface, surface area, units, volume",
+    "patterns": [
+      {
+        "pattern": "\\barea\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcalculations\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcalculations\\ involving\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcompound\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bcompound\\ shapes\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcone\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcurved\\ surface\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcylinder\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bformulas\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\binvolving\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bout\\ calculations\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bparts\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bprism\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bshapes\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsphere\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsurface\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsurface\\ area\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bunits\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bvolume\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bperimeter\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bperimeter[\\s\\-]*of\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*perimeter\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*perimeter[\\s\\-]*of\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcalculate[\\s\\-]*the[\\s\\-]*perimeter\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bconvert\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bconvert[\\s\\-]*into\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bof[\\s\\-]*this[\\s\\-]*shape\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*circumference\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcircumference\\s*the\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcircle\\s*give\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\banswer\\s*terms\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bperimeter\\s*this\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bof[\\s\\-]*cm\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\barea[\\s\\-]*of\\b",
+        "weight": 1.4499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\byour\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\binto\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bthe\\s*area\\b",
+        "weight": 1.7499999999999998,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*circle\\b",
+        "weight": 0.75,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\barea\\s*the\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bvillage\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bin[\\s\\-]*millimetres\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bin[\\s\\-]*millimetres[\\s\\-]*mm\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmeasure\\b",
+        "weight": 0.7,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\bmeasure[\\s\\-]*the\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmeasure[\\s\\-]*the[\\s\\-]*length\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmillimetres\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmillimetres[\\s\\-]*mm\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbicycle\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbuys[\\s\\-]*bicycle\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcarlotta\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcarlotta[\\s\\-]*buys\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcarlotta[\\s\\-]*buys[\\s\\-]*bicycle\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bby[\\s\\-]*cm\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcm[\\s\\-]*by\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcm[\\s\\-]*by[\\s\\-]*cm\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdistance\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "06. Trigonometry": {
+    "description": "Including: acute, acute angles, angles, bearings, calculations involving, decimal place, decimals correct, degrees, extended, know, only, pythagoras, pythagoras theorem, right-angled, right-angled triangle, right-angled triangles, sine cosine, theorem, trigonometry, two dimensions",
+    "patterns": [
+      {
+        "pattern": "\\bacute\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bacute\\ angles\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bangles\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbearings\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcalculations\\ involving\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdecimal\\ place\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdecimals\\ correct\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdegrees\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bextended\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bknow\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bonly\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpythagoras\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpythagoras\\ theorem\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bright\\-angled\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bright\\-angled\\ triangle\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bright\\-angled\\ triangles\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsine\\ cosine\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btheorem\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btrigonometry\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btwo\\ dimensions\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcorrect[\\s\\-]*to[\\s\\-]*decimal\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bto[\\s\\-]*decimal\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bshow[\\s\\-]*that\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bcalculate\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bdecimal\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcorrect[\\s\\-]*to\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bcorrect\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bangle\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bthat\\s*correct\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthat\\s*angle\\b",
+        "weight": 0.6,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bsketch\\s*the\\b",
+        "weight": 0.6,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bsolve\\s*the\\b",
+        "weight": 0.6,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bthe\\s*equation\\b",
+        "weight": 0.6,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bsketch\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bsketch[\\s\\-]*the\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bfind[\\s\\-]*when\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfind[\\s\\-]*when[\\s\\-]*tanx\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btanx\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcalculate[\\s\\-]*the[\\s\\-]*length\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcalculate[\\s\\-]*the\\b",
+        "weight": 0.7,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*length\\b",
+        "weight": 0.7,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*length[\\s\\-]*of\\b",
+        "weight": 0.7,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\blength[\\s\\-]*of\\b",
+        "weight": 0.7,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\blength\\b",
+        "weight": 0.7,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\blength[\\s\\-]*of[\\s\\-]*aq\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsolve[\\s\\-]*the\\b",
+        "weight": 0.85,
+        "low_weight_count": 1
+      },
+      {
+        "pattern": "\\bsolve[\\s\\-]*the[\\s\\-]*equation\\b",
+        "weight": 0.85,
+        "low_weight_count": 1
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*equation\\b",
+        "weight": 0.85,
+        "low_weight_count": 1
+      },
+      {
+        "pattern": "\\bequation\\b",
+        "weight": 0.85,
+        "low_weight_count": 1
+      },
+      {
+        "pattern": "\\bsolve\\b",
+        "weight": 0.85,
+        "low_weight_count": 1
+      },
+      {
+        "pattern": "\\btanx[\\s\\-]*and\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwhen[\\s\\-]*tanx\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "07. Transformations and vectors": {
+    "description": "Including: centre, combinations, edges, enlargement, extended, factor, fractional, fractional scale, horizontal, involve, involve combinations, line, mathematics, midpoints, multiples, only, origin vertices, scale, shape, transformations",
+    "patterns": [
+      {
+        "pattern": "\\bcentre\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcombinations\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bedges\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\benlargement\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bextended\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfactor\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfractional\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfractional\\ scale\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bhorizontal\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\binvolve\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\binvolve\\ combinations\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bline\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bmathematics\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmidpoints\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmultiples\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bonly\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\borigin\\ vertices\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bscale\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bshape\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btransformations\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgrid\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bon[\\s\\-]*the[\\s\\-]*grid\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*grid\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bdescribe[\\s\\-]*fully\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdescribe[\\s\\-]*fully[\\s\\-]*the\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfully[\\s\\-]*the\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfully[\\s\\-]*the[\\s\\-]*single\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmaps\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*image\\b",
+        "weight": 1.9999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*vector\\b",
+        "weight": 1.8999999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdescribe\\s*fully\\b",
+        "weight": 1.7999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfully\\s*the\\b",
+        "weight": 1.7999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*single\\b",
+        "weight": 1.7999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmark[\\s\\-]*the[\\s\\-]*midpoint\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmidpoint\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bmidpoint[\\s\\-]*of\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bmidpoint[\\s\\-]*of[\\s\\-]*line\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*midpoint\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\brectangle\\b",
+        "weight": 0.7,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\bhas[\\s\\-]*magnitude\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "08. Probability": {
+    "description": "Including: blue, branches, combined, combined events, estimate, event, events, fair bias, fraction decimal, frequencies, occurring, only, probabilities, probability, relative, sets, tree, two, two sets, venn",
+    "patterns": [
+      {
+        "pattern": "\\bblue\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbranches\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcombined\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcombined\\ events\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bestimate\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bevent\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bevents\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfair\\ bias\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfraction\\ decimal\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfrequencies\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\boccurring\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bonly\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bprobabilities\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bprobability\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\brelative\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsets\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btree\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btwo\\ sets\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bvenn\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfind\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bprobability[\\s\\-]*that\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*probability\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*probability[\\s\\-]*that\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfind[\\s\\-]*the[\\s\\-]*probability\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btimes\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*probability\\b",
+        "weight": 2.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bprobability\\s*that\\b",
+        "weight": 2.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwooden\\s*plastic\\b",
+        "weight": 1.4,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bplastic\\s*metal\\b",
+        "weight": 1.4,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*weather\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcomplete[\\s\\-]*the[\\s\\-]*venn\\b",
+        "weight": 1.4499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*venn\\b",
+        "weight": 1.4499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*venn[\\s\\-]*diagram\\b",
+        "weight": 1.4499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bvenn[\\s\\-]*diagram\\b",
+        "weight": 1.4499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcomplete[\\s\\-]*the\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcomplete\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*venn\\b",
+        "weight": 1.8499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bvenn\\s*diagram\\b",
+        "weight": 1.8499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btimes\\s*calculate\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnumber\\s*times\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*spinner\\b",
+        "weight": 1.6499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bregion\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bshade[\\s\\-]*the\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bshade[\\s\\-]*the[\\s\\-]*region\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*region\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnumber\\b",
+        "weight": 0.85,
+        "low_weight_count": 1
+      },
+      {
+        "pattern": "\\bspeak\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsamira\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcars\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "09. Statistics": {
+    "description": "Including: averages, bar, bar charts, charts, compare, data, extended, fit, frequency, line, mathematics, negative, number, numbers, only, points, statistical, statistical data, subject, tables",
+    "patterns": [
+      {
+        "pattern": "\\baverages\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbar\\ charts\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcharts\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcompare\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdata\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bextended\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfrequency\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bline\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bmathematics\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnegative\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnumber\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bnumbers\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bonly\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpoints\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bstatistical\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstatistical\\ data\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsubject\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\btables\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmedian\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*median\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfind[\\s\\-]*the[\\s\\-]*median\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcomplete[\\s\\-]*the\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcomplete\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*stem\\-and\\-leaf\\b",
+        "weight": 1.9999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstem\\-and\\-leaf\\s*diagram\\b",
+        "weight": 1.9999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bkey\\s*represents\\b",
+        "weight": 1.4,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpeople\\s*who\\b",
+        "weight": 1.9999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*median\\b",
+        "weight": 1.9999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bout[\\s\\-]*the[\\s\\-]*range\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\brange\\b",
+        "weight": 1.4499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*range\\b",
+        "weight": 1.4499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bout[\\s\\-]*the\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bwork[\\s\\-]*out[\\s\\-]*the\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bdown[\\s\\-]*the[\\s\\-]*mode\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmode\\b",
+        "weight": 1.4499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*mode\\b",
+        "weight": 1.4499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*scatter\\b",
+        "weight": 1.8499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bscatter\\s*diagram\\b",
+        "weight": 1.8499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\brecords\\s*the\\b",
+        "weight": 1.7499999999999998,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bplot\\s*shows\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwhat\\s*type\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcomplete[\\s\\-]*the[\\s\\-]*table\\b",
+        "weight": 0.7,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\btable\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*table\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcustomers\\b",
+        "weight": 1.15,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bin[\\s\\-]*week\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bweek\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bchart\\b",
+        "weight": 1.15,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcity\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmean\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bout[\\s\\-]*the[\\s\\-]*mean\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*mean\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\ban[\\s\\-]*estimate\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\ban[\\s\\-]*estimate[\\s\\-]*of\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  }
+}

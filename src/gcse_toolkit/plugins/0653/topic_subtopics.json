@@ -1,0 +1,4915 @@
+{
+  "Characteristics of living organisms": {
+    "description": "Including: ability, break down, characteristics, chemical reactions, down nutrient, dry mass, energy, energy growth, external environment, growth, living, living organisms, metabolism, nutrient molecules, organism, organism causing, organisms, permanent increase, release energy, same kind",
+    "patterns": [
+      {
+        "pattern": "\\bability\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbreak\\ down\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcharacteristics\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bchemical\\ reactions\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdown\\ nutrient\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdry\\ mass\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\benergy\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\benergy\\ growth\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bexternal\\ environment\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgrowth\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bliving\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bliving\\ organisms\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmetabolism\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnutrient\\ molecules\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\borganism\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\borganism\\ causing\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\borganisms\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bpermanent\\ increase\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\brelease\\ energy\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsame\\ kind\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcomplete[\\s\\-]*table\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bcomplete\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\btable\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bgravitropism\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdescribe[\\s\\-]*the[\\s\\-]*observation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bduring[\\s\\-]*step\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmade[\\s\\-]*during\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmade[\\s\\-]*during[\\s\\-]*step\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "Cells": {
+    "description": "Including: animal, bacterial, cell, cell membrane, cells, cytoplasm, functions, listed, magnification, membrane, millimetres, organ, plant, ribosomes, size, specimens, state, structure, structures listed, wall cell",
+    "patterns": [
+      {
+        "pattern": "\\banimal\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbacterial\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bcell\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bcell\\ membrane\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcells\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcytoplasm\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfunctions\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blisted\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmagnification\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmembrane\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmillimetres\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\borgan\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bplant\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bribosomes\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsize\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bspecimens\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstate\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bstructure\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstructures\\ listed\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwall\\ cell\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "Movement into and out of cells": {
+    "description": "Including: active, active transport, cell, cell membrane, cells, concentration, concentration gradient, diffusion, gradient, higher, lower, membrane, movement, net movement, osmosis, region, state, transport, water, water potential",
+    "patterns": [
+      {
+        "pattern": "\\bactive\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bactive\\ transport\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcell\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bcell\\ membrane\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcells\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bconcentration\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bconcentration\\ gradient\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdiffusion\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgradient\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bhigher\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\blower\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmembrane\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmovement\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnet\\ movement\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bosmosis\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bregion\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bstate\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\btransport\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwater\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bwater\\ potential\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "Biological molecules": {
+    "description": "Including: acids, amino acids, biological molecules, biuret test, carbohydrates fats, chemical elements, emulsion test, ethanol emulsion, fats, fatty acids, iodine solution, large molecules, molecules, oils, proteins, smaller molecules, solution, solution test, starch, test",
+    "patterns": [
+      {
+        "pattern": "\\bacids\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bamino\\ acids\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbiological\\ molecules\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbiuret\\ test\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcarbohydrates\\ fats\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bchemical\\ elements\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bemulsion\\ test\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bethanol\\ emulsion\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfats\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfatty\\ acids\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\biodine\\ solution\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blarge\\ molecules\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmolecules\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\boils\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bproteins\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsmaller\\ molecules\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsolution\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bsolution\\ test\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstarch\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btest\\b",
+        "weight": 0.7,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\bthe\\s*reagent\\b",
+        "weight": 1.7999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\breducing\\s*sugars\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "Enzymes": {
+    "description": "Including: action, active, active site, biological catalysts, complex substrate, denaturation, effect, enzyme, enzyme action, enzymes, fit, fit frequency, kinetic energy, metabolic reactions, shape, site, site enzyme, substrate, substrate complex, temperature",
+    "patterns": [
+      {
+        "pattern": "\\baction\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bactive\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bactive\\ site\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbiological\\ catalysts\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcomplex\\ substrate\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdenaturation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\beffect\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\benzyme\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\benzyme\\ action\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\benzymes\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfit\\ frequency\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bkinetic\\ energy\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bmetabolic\\ reactions\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bshape\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsite\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsite\\ enzyme\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsubstrate\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsubstrate\\ complex\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btemperature\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      }
+    ],
+    "sub_topics": []
+  },
+  "Plant nutrition": {
+    "description": "Including: 6co2 6h2o, 6h2o c6h12o6, air spaces, aquatic plant, balanced symbol, carbohydrates, carbon, carbon dioxide, chlorophyll, chloroplasts, dioxide, effect, energy, equation, leaf, light, mesophyll, photosynthesis, plant, state",
+    "patterns": [
+      {
+        "pattern": "\\b6co2\\ 6h2o\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\b6h2o\\ c6h12o6\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bair\\ spaces\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\baquatic\\ plant\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbalanced\\ symbol\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcarbohydrates\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcarbon\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bcarbon\\ dioxide\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bchlorophyll\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bchloroplasts\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdioxide\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\beffect\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\benergy\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bequation\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bleaf\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blight\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmesophyll\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bphotosynthesis\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bplant\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bstate\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bpigment\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\brole\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bintensity\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bintensity[\\s\\-]*is\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blight[\\s\\-]*intensity\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blight[\\s\\-]*intensity[\\s\\-]*is\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfor[\\s\\-]*photosynthesis\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfor\\s*photosynthesis\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blight\\s*intensity\\b",
+        "weight": 1.7999999999999996,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "Human nutrition": {
+    "description": "Including: acids, amylase, breakdown, breaks down, chemical, chemical digestion, digestion, digestive, digestive system, down, food, functions, molecules, organs, physical digestion, small, small soluble, soluble molecules, state, system",
+    "patterns": [
+      {
+        "pattern": "\\bacids\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bamylase\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbreakdown\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bbreaks\\ down\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bchemical\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bchemical\\ digestion\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdigestion\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdigestive\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdigestive\\ system\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdown\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfood\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfunctions\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmolecules\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\borgans\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bphysical\\ digestion\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsmall\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsmall\\ soluble\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsoluble\\ molecules\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstate\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bsystem\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      }
+    ],
+    "sub_topics": []
+  },
+  "Transport in plants": {
+    "description": "Including: cells, cells root, cells xylem, functions, hair, hair cells, images, ions, leaves, mineral, phloem, plants, root, root hair, state, transpiration, transport, uptake, water, xylem",
+    "patterns": [
+      {
+        "pattern": "\\bcells\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcells\\ root\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcells\\ xylem\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfunctions\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bhair\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bhair\\ cells\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bimages\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bions\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bleaves\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmineral\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bphloem\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bplants\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\broot\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\broot\\ hair\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstate\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\btranspiration\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btransport\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\buptake\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwater\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bxylem\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbox\\s*make\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmake\\s*large\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blarge\\s*pencil\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpencil\\s*drawing\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdrawing\\s*the\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "Transport in animals": {
+    "description": "Including: arteries, blood, blood cells, blood vessels, cells, coronary, coronary arteries, coronary heart, heart, heart disease, heart rate, rate, red, red blood, state, transport, valves, veins, white, white blood",
+    "patterns": [
+      {
+        "pattern": "\\barteries\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bblood\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bblood\\ cells\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bblood\\ vessels\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcells\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcoronary\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcoronary\\ arteries\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcoronary\\ heart\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bheart\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bheart\\ disease\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bheart\\ rate\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\brate\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bred\\ blood\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstate\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\btransport\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bvalves\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bveins\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwhite\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwhite\\ blood\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "Diseases and immunity": {
+    "description": "Including: active, active immunity, antibody production, blood, blood cells, body, body defences, body fluids, clean water, direct contact, disease, food, food animals, food preparation, immunity, pathogen, sewage, sewage treatment, state, treatment",
+    "patterns": [
+      {
+        "pattern": "\\bactive\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bactive\\ immunity\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bantibody\\ production\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bblood\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bblood\\ cells\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bbody\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bbody\\ defences\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbody\\ fluids\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bclean\\ water\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdirect\\ contact\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdisease\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bfood\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfood\\ animals\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfood\\ preparation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bimmunity\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpathogen\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsewage\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsewage\\ treatment\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstate\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\btreatment\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "Gas exchange in humans": {
+    "description": "Including: area thin, associated capillaries, blood supply, breathing, breathing system, bronchi bronchioles, bronchioles alveoli, diaphragm ribs, exchange, gas, gas exchange, humans, intercostal muscles, large surface, muscles larynx, ribs intercostal, surface, system lungs, thin surface, trachea bronchi",
+    "patterns": [
+      {
+        "pattern": "\\barea\\ thin\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bassociated\\ capillaries\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bblood\\ supply\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbreathing\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbreathing\\ system\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbronchi\\ bronchioles\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbronchioles\\ alveoli\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdiaphragm\\ ribs\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bexchange\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgas\\ exchange\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bhumans\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bintercostal\\ muscles\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blarge\\ surface\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmuscles\\ larynx\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bribs\\ intercostal\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsurface\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsystem\\ lungs\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthin\\ surface\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btrachea\\ bronchi\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "Respiration": {
+    "description": "Including: 6co2 6h2o, 6o2 6co2, aerobic, aerobic respiration, balanced symbol, body temperature, c6h12o6 6o2, carbon dioxide, cell division, constant body, contraction protein, dioxide water, division growth, down nutrient, energy, equation, glucose oxygen, oxygen, respiration, state",
+    "patterns": [
+      {
+        "pattern": "\\b6co2\\ 6h2o\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\b6o2\\ 6co2\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\baerobic\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\baerobic\\ respiration\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbalanced\\ symbol\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbody\\ temperature\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bc6h12o6\\ 6o2\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcarbon\\ dioxide\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bcell\\ division\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bconstant\\ body\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcontraction\\ protein\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdioxide\\ water\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdivision\\ growth\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdown\\ nutrient\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\benergy\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bequation\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bglucose\\ oxygen\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\boxygen\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\brespiration\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstate\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bpulse\\s*rate\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bphysical\\s*activity\\b",
+        "weight": 0.6,
+        "low_weight_count": 4
+      }
+    ],
+    "sub_topics": []
+  },
+  "Drugs": {
+    "description": "Including: antibiotics, antibiotics kill, antibiotics only, bacteria, bacterial, bacterial infections, body, chemical, development, drug, drugs, effectiveness, essential, infections, kill, kill bacteria, resistant, resistant bacteria, state, substance taken",
+    "patterns": [
+      {
+        "pattern": "\\bantibiotics\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bantibiotics\\ kill\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bantibiotics\\ only\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbacteria\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bbacterial\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bbacterial\\ infections\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbody\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bchemical\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bdevelopment\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdrug\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdrugs\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\beffectiveness\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bessential\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\binfections\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bkill\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bkill\\ bacteria\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bresistant\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bresistant\\ bacteria\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstate\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bsubstance\\ taken\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "Reproduction": {
+    "description": "Including: anthers, female, fertilisation, flower, functions, gamete, images, male, nucleus, ovaries, parts, pollen, reproduction, reproductive, sexual, sexual reproduction, sperm, state, stigma, system",
+    "patterns": [
+      {
+        "pattern": "\\banthers\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfemale\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfertilisation\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bflower\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfunctions\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgamete\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bimages\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmale\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnucleus\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bovaries\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bparts\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpollen\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\breproduction\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\breproductive\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsexual\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsexual\\ reproduction\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsperm\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstate\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bstigma\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsystem\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\boffspring\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*offspring\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bplant\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bparent\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bparent[\\s\\-]*plant\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bplants\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bbaby\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbaby[\\s\\-]*inside\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*offspring\\b",
+        "weight": 1.5,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bparent\\s*plant\\b",
+        "weight": 1.4,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*parent\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bproduce\\s*the\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "Organisms and their environment": {
+    "description": "Including: animal, carbon, carbon cycle, chain, chains, combined, cycle, eating, energy, environment, feeding, flow, food, food chain, food chains, food webs, gets, organism, organisms, webs",
+    "patterns": [
+      {
+        "pattern": "\\banimal\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcarbon\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bcarbon\\ cycle\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bchain\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bchains\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcombined\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcycle\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\beating\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\benergy\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\benvironment\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfeeding\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bflow\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bfood\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfood\\ chain\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfood\\ chains\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfood\\ webs\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgets\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\borganism\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\borganisms\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bwebs\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfossil\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bherbivore\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bherbivore[\\s\\-]*shown\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bherbivore[\\s\\-]*shown[\\s\\-]*in\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bidentify[\\s\\-]*one\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bidentify[\\s\\-]*one[\\s\\-]*herbivore\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bone[\\s\\-]*herbivore\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcarbon\\s*dioxide\\b",
+        "weight": 0.6,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bthe\\s*atmosphere\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "Human influences on ecosystems": {
+    "description": "Including: area, atmosphere, biodiversity, carbon, deforestation, destruction, dioxide, effects, endangered, extinction, flooding, habitat, habitat destruction, increase, loss, organisms, reducing biodiversity, soil flooding, species, undesirable effects",
+    "patterns": [
+      {
+        "pattern": "\\barea\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\batmosphere\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bbiodiversity\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcarbon\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bdeforestation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdestruction\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdioxide\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\beffects\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bendangered\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bextinction\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bflooding\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bhabitat\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bhabitat\\ destruction\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bincrease\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bloss\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\borganisms\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\breducing\\ biodiversity\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsoil\\ flooding\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bspecies\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bundesirable\\ effects\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "States of matter": {
+    "description": "Including: arrangement, boiling, boiling evaporating, condensing, distinguishing, distinguishing properties, effects, evaporating, evaporating freezing, freezing, gas, gases, kinetic, liquids, particle, particle separation, particle theory, solids, solids liquids, state",
+    "patterns": [
+      {
+        "pattern": "\\barrangement\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bboiling\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bboiling\\ evaporating\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcondensing\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdistinguishing\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdistinguishing\\ properties\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\beffects\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bevaporating\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bevaporating\\ freezing\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfreezing\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgases\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bkinetic\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bliquids\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bparticle\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bparticle\\ separation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bparticle\\ theory\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsolids\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bsolids\\ liquids\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstate\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bchanges\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwater\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bliquid\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\biron\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bphysical\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bphysical[\\s\\-]*states\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdroplets\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bglass[\\s\\-]*lid\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bphysical\\s*states\\b",
+        "weight": 1.8999999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\biron\\s*oxide\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\band\\s*oxygen\\b",
+        "weight": 0.6,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bthermometer\\s*reads\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwater\\s*droplets\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btemperature\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bdensity\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bparticles\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bof[\\s\\-]*the[\\s\\-]*wax\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*wax\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "Atoms, elements and compounds": {
+    "description": "Including: atom, boiling points, bonds, compounds, configurations, covalent, covalent bonds, dot-and-cross, electrical conductivity, electronic, elements, formation, group, ionic, ionic bonds, ions, molecules, number, points, state",
+    "patterns": [
+      {
+        "pattern": "\\batom\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bboiling\\ points\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbonds\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bcompounds\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bconfigurations\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcovalent\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcovalent\\ bonds\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdot\\-and\\-cross\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\belectrical\\ conductivity\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\belectronic\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\belements\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bformation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgroup\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bionic\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bionic\\ bonds\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bions\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bmolecules\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bnumber\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpoints\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstate\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bsodium\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\belectrons\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdiatomic\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmeaning\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bmeaning[\\s\\-]*of\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bmeaning[\\s\\-]*of[\\s\\-]*diatomic\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bof[\\s\\-]*diatomic\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstate[\\s\\-]*the[\\s\\-]*meaning\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*dot\\-and\\-cross\\b",
+        "weight": 1.7999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdot\\-and\\-cross\\s*diagram\\b",
+        "weight": 1.7999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdiagram\\s*fig\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bouter\\-shell\\s*electrons\\b",
+        "weight": 1.7999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\beach\\s*ion\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfiltrate\\b",
+        "weight": 0.9999999999999999,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*filtrate\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bhigh\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bflame\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\blithium\\b",
+        "weight": 1.4499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfluoride\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "Stoichiometry": {
+    "description": "Including: atoms, compound, construct, deduce, diagrammatic, equations, formula, formulas, ionic, ions, model, molecular, numbers, present, relative, relative numbers, representation, state, symbol, symbols",
+    "patterns": [
+      {
+        "pattern": "\\batoms\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcompound\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bconstruct\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdeduce\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdiagrammatic\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bequations\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bformula\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bformulas\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bionic\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bions\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bmodel\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmolecular\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnumbers\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpresent\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\brelative\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\brelative\\ numbers\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\brepresentation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstate\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bsymbol\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsymbols\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bmass\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsymbol[\\s\\-]*equation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsymbol[\\s\\-]*equation[\\s\\-]*for\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bequation\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bequation[\\s\\-]*for\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bmass[\\s\\-]*of[\\s\\-]*solid\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\breaction\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bmass\\s*solid\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmass\\s*step\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstep\\s*mass\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "Electrochemistry": {
+    "description": "Including: anode, aqueous, aqueous sodium, carbon graphite, cathode, compound, concentrated aqueous, define electrolysis, dilute sulfuric, electric current, electrode, electrodes, electrolysis, electrolytic cells, formed, hydrogen, inert electrodes, molten, products, state",
+    "patterns": [
+      {
+        "pattern": "\\banode\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\baqueous\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\baqueous\\ sodium\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcarbon\\ graphite\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcathode\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcompound\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bconcentrated\\ aqueous\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdefine\\ electrolysis\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdilute\\ sulfuric\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\belectric\\ current\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\belectrode\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\belectrodes\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\belectrolysis\\b",
+        "weight": 1.15,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\belectrolytic\\ cells\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bformed\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bhydrogen\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\binert\\ electrodes\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmolten\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bproducts\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstate\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bdilute[\\s\\-]*sulfuric\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdilute[\\s\\-]*sulfuric[\\s\\-]*acid\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdilute\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsulfuric\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsulfuric[\\s\\-]*acid\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bacid\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bchemical[\\s\\-]*change\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bindicator\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\buniversal\\s*indicator\\b",
+        "weight": 0.7000000000000002,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bdilute\\s*sulfuric\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bacid\\s*electrolysed\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bchemical\\s*change\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*dilute\\b",
+        "weight": 0.6,
+        "low_weight_count": 4
+      }
+    ],
+    "sub_topics": []
+  },
+  "Chemical energetics": {
+    "description": "Including: activation, activation energy, bond, bond breaking, colliding particles, endothermic, endothermic reactions, energy, exothermic, leading, pathway, reaction, reaction pathway, reactions, state, surroundings, surroundings leading, temperature, thermal, thermal energy",
+    "patterns": [
+      {
+        "pattern": "\\bactivation\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bactivation\\ energy\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbond\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbond\\ breaking\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcolliding\\ particles\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bendothermic\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bendothermic\\ reactions\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\benergy\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bexothermic\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bleading\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpathway\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\breaction\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\breaction\\ pathway\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\breactions\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bstate\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bsurroundings\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsurroundings\\ leading\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btemperature\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bthermal\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthermal\\ energy\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcopper[\\s\\-]*ii[\\s\\-]*chloride\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bii[\\s\\-]*chloride\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bconcentration\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bchloride\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bcopper\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bcopper[\\s\\-]*ii\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\baqueous\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bof[\\s\\-]*aqueous\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcopper\\s*chloride\\b",
+        "weight": 1.45,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\baqueous\\s*copper\\b",
+        "weight": 1.9499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bchloride\\s*the\\b",
+        "weight": 1.4,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bconcentration\\s*aqueous\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*aqueous\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "Chemical reactions": {
+    "description": "Including: adding, area, catalyst, chemical, collision, collision theory, combined, concentration, define, effect, oxidation, oxygen, particles, rate, reaction, reactions, redox, redox reactions, reduction, surface area",
+    "patterns": [
+      {
+        "pattern": "\\badding\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\barea\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcatalyst\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bchemical\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bcollision\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcollision\\ theory\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcombined\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bconcentration\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdefine\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\beffect\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\boxidation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\boxygen\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bparticles\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\brate\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\breaction\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\breactions\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bredox\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bredox\\ reactions\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\breduction\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsurface\\ area\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bhydrogen\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bexplain[\\s\\-]*why\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*reaction\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bexplain[\\s\\-]*why[\\s\\-]*the\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bhydrogen[\\s\\-]*gas\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmixture\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bexplain\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\btest\\s*tube\\b",
+        "weight": 1.7000000000000002,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*test\\b",
+        "weight": 0.9000000000000002,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bhydrogen\\s*gas\\b",
+        "weight": 1.8999999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btable\\s*step\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*reaction\\b",
+        "weight": 0.6,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\baqueous\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btest[\\s\\-]*tube\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bzinc\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\btube\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bby[\\s\\-]*catalyst\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btest\\b",
+        "weight": 0.7,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\bequation\\b",
+        "weight": 0.7,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\bmeant[\\s\\-]*by[\\s\\-]*catalyst\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "Acids, bases and salts": {
+    "description": "Including: acids, alkalis, bases, characteristic, characteristic properties, effect, excess, excess insoluble, indicators, insoluble, know, litmus, metals, methyl, methyl orange, oxides, preparation, properties, salts, solubility rules",
+    "patterns": [
+      {
+        "pattern": "\\bacids\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\balkalis\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbases\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcharacteristic\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcharacteristic\\ properties\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\beffect\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bexcess\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bexcess\\ insoluble\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bindicators\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\binsoluble\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bknow\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blitmus\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmetals\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmethyl\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmethyl\\ orange\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\boxides\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpreparation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bproperties\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bsalts\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsolubility\\ rules\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bacid\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcopper\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bcopper[\\s\\-]*ii\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bformula[\\s\\-]*of[\\s\\-]*sulfuric\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bof[\\s\\-]*sulfuric\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bof[\\s\\-]*sulfuric[\\s\\-]*acid\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstate[\\s\\-]*the[\\s\\-]*formula\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*formula[\\s\\-]*of\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bof[\\s\\-]*copper\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bof[\\s\\-]*copper[\\s\\-]*ii\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\boxide\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bcolour[\\s\\-]*observed\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcolour[\\s\\-]*observed[\\s\\-]*in\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcopper[\\s\\-]*ii[\\s\\-]*ions\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "The Periodic Table": {
+    "description": "Including: arrangement, bromine, elements, gases, group, group vii, halogens, increasing, increasing density, information, metals, noble gases, other, other elements, periodic table, properties, transition elements, trends, trends down, vii",
+    "patterns": [
+      {
+        "pattern": "\\barrangement\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bbromine\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\belements\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bgases\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bgroup\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgroup\\ vii\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bhalogens\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bincreasing\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bincreasing\\ density\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\binformation\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bmetals\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnoble\\ gases\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bother\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bother\\ elements\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bperiodic\\ table\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bproperties\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\btransition\\ elements\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btrends\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btrends\\ down\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*periodic\\b",
+        "weight": 1.7999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bperiodic\\s*table\\b",
+        "weight": 1.7999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\batom\\s*fluorine\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnumber\\s*protons\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "Metals": {
+    "description": "Including: alloys, aluminium, because, blast furnace, carbon, carbon dioxide, combined, conductivity, copper, electrical, electrical conductivity, iron, metals, physical properties, properties, reactivity, reactivity series, series, state, water",
+    "patterns": [
+      {
+        "pattern": "\\balloys\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\baluminium\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bbecause\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bblast\\ furnace\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcarbon\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bcarbon\\ dioxide\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bcombined\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bconductivity\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcopper\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\belectrical\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\belectrical\\ conductivity\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\biron\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmetals\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bphysical\\ properties\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bproperties\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\breactivity\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\breactivity\\ series\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bseries\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstate\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bwater\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\balloy\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\ban[\\s\\-]*alloy\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\belements\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bgroup\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgroup[\\s\\-]*elements\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbarrier\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgroup\\s*elements\\b",
+        "weight": 1.5,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\biron\\s*and\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\band\\s*group\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bequation\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\band[\\s\\-]*equation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\band[\\s\\-]*equation[\\s\\-]*to\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\banswer[\\s\\-]*the\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\banswer[\\s\\-]*the[\\s\\-]*following\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bequation[\\s\\-]*and\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bequation[\\s\\-]*and[\\s\\-]*equation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\baluminium[\\s\\-]*is\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\baluminium[\\s\\-]*is[\\s\\-]*extracted\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bby[\\s\\-]*electrolysis\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bby[\\s\\-]*electrolysis[\\s\\-]*name\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\belectrolysis\\b",
+        "weight": 0.7,
+        "low_weight_count": 2
+      }
+    ],
+    "sub_topics": []
+  },
+  "Chemistry of the environment": {
+    "description": "Including: acid, acid rain, air, air quality, carbon, carbon dioxide, carbon monoxide, climate, combustion, dioxide, energy, fossil fuels, fuels, gases, global, methane, state, sulfur, sulfur dioxide, water",
+    "patterns": [
+      {
+        "pattern": "\\bacid\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bacid\\ rain\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bair\\ quality\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcarbon\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bcarbon\\ dioxide\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bcarbon\\ monoxide\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bclimate\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcombustion\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdioxide\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\benergy\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bfossil\\ fuels\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfuels\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgases\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bglobal\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmethane\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstate\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bsulfur\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsulfur\\ dioxide\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwater\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bnitrogen\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnitrogen[\\s\\-]*is\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnitrogen[\\s\\-]*is[\\s\\-]*gas\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bis[\\s\\-]*gas\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bof[\\s\\-]*nitrogen\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bair[\\s\\-]*is\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcontain\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bcontain[\\s\\-]*carbon\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\boxides\\s*nitrogen\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfuels\\s*that\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthat\\s*contain\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcontain\\s*carbon\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bclean\\s*air\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "Organic chemistry": {
+    "description": "Including: alkanes, alkenes, bonds, carbon, carbon bonds, carbon carbon, catalyst, fraction, fractions, gas, homologous series, hydrocarbons, hydrogen, molecules, name, natural gas, petroleum, properties, saturated, state",
+    "patterns": [
+      {
+        "pattern": "\\balkanes\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\balkenes\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbonds\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bcarbon\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bcarbon\\ bonds\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcarbon\\ carbon\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcatalyst\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfraction\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfractions\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bhomologous\\ series\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bhydrocarbons\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bhydrogen\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bmolecules\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bname\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnatural\\ gas\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpetroleum\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bproperties\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bsaturated\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstate\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bgeneral\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bethane\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bethane[\\s\\-]*is\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bethane[\\s\\-]*is[\\s\\-]*an\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bis[\\s\\-]*an[\\s\\-]*alkane\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*general\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bethene\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmethane\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*general\\b",
+        "weight": 1.8999999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgeneral\\s*formula\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bby[\\s\\-]*hydrocarbon\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bhydrocarbon\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmeant[\\s\\-]*by[\\s\\-]*hydrocarbon\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstate[\\s\\-]*what\\b",
+        "weight": 1.4499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstate[\\s\\-]*what[\\s\\-]*is\\b",
+        "weight": 1.4499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bis[\\s\\-]*meant\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bis[\\s\\-]*meant[\\s\\-]*by\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\band[\\s\\-]*for[\\s\\-]*octene\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bby[\\s\\-]*filling\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bby[\\s\\-]*filling[\\s\\-]*in\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcomplete\\b",
+        "weight": 0.7,
+        "low_weight_count": 2
+      }
+    ],
+    "sub_topics": []
+  },
+  "Experimental techniques and chemical analysis": {
+    "description": "Including: acid, adding aqueous, aqueous, c12 experimental, carbon dioxide, chemical analysis, combined, dilute, dissolved, distance travelled, distillation, experimental, experimental techniques, gases, ions, nitric acid, solution, solvent, substance, substances",
+    "patterns": [
+      {
+        "pattern": "\\bacid\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\badding\\ aqueous\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\baqueous\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bc12\\ experimental\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcarbon\\ dioxide\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bchemical\\ analysis\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcombined\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdilute\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdissolved\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdistance\\ travelled\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdistillation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bexperimental\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bexperimental\\ techniques\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgases\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bions\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bnitric\\ acid\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsolution\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bsolvent\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsubstance\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsubstances\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwater\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bresidue\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bof[\\s\\-]*sand\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsand\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgraph\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bmass\\s*sand\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\baqueous\\s*barium\\b",
+        "weight": 1.8999999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbarium\\s*nitrate\\b",
+        "weight": 1.8999999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpure\\s*water\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsalty\\s*water\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmass\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmass[\\s\\-]*of\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bmass[\\s\\-]*of[\\s\\-]*sand\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsuggest\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\breading\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bthe\\s*procedure\\b",
+        "weight": 0.8500000000000002,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bthe\\s*data\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*graph\\b",
+        "weight": 0.75,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bfiltrate\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthermometer\\b",
+        "weight": 0.7,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\bshow\\b",
+        "weight": 0.7,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\bto[\\s\\-]*show\\b",
+        "weight": 0.7,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\bthe\\s*temperature\\b",
+        "weight": 0.9,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\bafter\\b",
+        "weight": 0.85,
+        "low_weight_count": 1
+      },
+      {
+        "pattern": "\\bafter[\\s\\-]*each\\b",
+        "weight": 0.85,
+        "low_weight_count": 1
+      },
+      {
+        "pattern": "\\bafter[\\s\\-]*each[\\s\\-]*reading\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\beach\\b",
+        "weight": 0.85,
+        "low_weight_count": 1
+      }
+    ],
+    "sub_topics": []
+  },
+  "Motion, forces and energy": {
+    "description": "Including: acceleration, constant, define, determine, distance, energy, equation, forces, know, motion, moving, object, per unit, power, recall, speed, speed time, time, time graph, work",
+    "patterns": [
+      {
+        "pattern": "\\bacceleration\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bconstant\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdefine\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bdetermine\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdistance\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\benergy\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bequation\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bforces\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bknow\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmotion\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmoving\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bobject\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bper\\ unit\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpower\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\brecall\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bspeed\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bspeed\\ time\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btime\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btime\\ graph\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwork\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*box\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*vehicle\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bvehicle\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bforce\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbelt\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bconveyor\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bconveyor[\\s\\-]*belt\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bconveyor\\s*belt\\b",
+        "weight": 1.2000000000000002,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*conveyor\\b",
+        "weight": 1.1,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*vehicle\\b",
+        "weight": 1.9999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\benergy\\s*the\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bweight\\s*the\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "Thermal physics": {
+    "description": "Including: convection, energy, energy transfer, evaporation, gas, gases, know, liquids, particle, particle model, particles, pressure, radiation, solids, solids liquids, temperature, thermal, thermal energy, thermal expansion, transfer",
+    "patterns": [
+      {
+        "pattern": "\\bconvection\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\benergy\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\benergy\\ transfer\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bevaporation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgases\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bknow\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bliquids\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bparticle\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bparticle\\ model\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bparticles\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpressure\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bradiation\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bsolids\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bsolids\\ liquids\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btemperature\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bthermal\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthermal\\ energy\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthermal\\ expansion\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btransfer\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\berror\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwater[\\s\\-]*in\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbeaker\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*hot\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfrom[\\s\\-]*the[\\s\\-]*fire\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwater\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*beaker\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bthe\\s*beaker\\b",
+        "weight": 0.7000000000000002,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bhot\\s*water\\b",
+        "weight": 1.0000000000000002,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwater\\s*the\\b",
+        "weight": 1.4,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthis\\s*error\\b",
+        "weight": 1.4,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthat\\s*causes\\b",
+        "weight": 1.8999999999999997,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "Waves": {
+    "description": "Including: angle, converging lens, define, direction, electromagnetic, frequency, image, know, light, order, plane, ray, reflection, refraction, same, sound, speed, thin converging, wave, waves",
+    "patterns": [
+      {
+        "pattern": "\\bangle\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bconverging\\ lens\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdefine\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bdirection\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\belectromagnetic\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfrequency\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bimage\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bknow\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blight\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\border\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bplane\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\breflection\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\brefraction\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsame\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bsound\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bspeed\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthin\\ converging\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwave\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwaves\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmicrowaves\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bspectrum\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bphone\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\brange\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\brange[\\s\\-]*of\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\belectromagnetic[\\s\\-]*spectrum\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmobile\\s*phone\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*electromagnetic\\b",
+        "weight": 1.7999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\belectromagnetic\\s*spectrum\\b",
+        "weight": 1.7999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdistant\\s*star\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*astronomer\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "Electricity": {
+    "description": "Including: charge, charges, circuit, circuits, combined, components, current, electric, electric current, electrical, electrical energy, energy, know, negative, parallel, positive, recall, resistance, series, source",
+    "patterns": [
+      {
+        "pattern": "\\bcharge\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcharges\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bcircuit\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcircuits\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcombined\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcomponents\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcurrent\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\belectric\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\belectric\\ current\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\belectrical\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\belectrical\\ energy\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\benergy\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bknow\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnegative\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bparallel\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpositive\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\brecall\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bresistance\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bseries\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsource\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bresistor\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bswitch\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*switch\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bvoltmeter\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstudent\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*voltmeter\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bacross\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*voltmeter\\b",
+        "weight": 2.4,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*switch\\b",
+        "weight": 2.05,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*circuit\\b",
+        "weight": 2.1999999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bvoltmeter\\s*across\\b",
+        "weight": 1.5,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bacross\\s*resistor\\b",
+        "weight": 2.0999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcost\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*electrical\\b",
+        "weight": 1.4499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blamp\\b",
+        "weight": 1.4499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwire\\s*the\\b",
+        "weight": 1.4,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\brear\\s*lamp\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*wire\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*headlamp\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "Space physics": {
+    "description": "Including: distance, earth, galaxies, gravitational, gravitational attraction, know, mass, mass star, milky, milky way, orbit, planets, solar, solar system, star, stars, sun, system, universe, way",
+    "patterns": [
+      {
+        "pattern": "\\bdistance\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bearth\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgalaxies\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgravitational\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgravitational\\ attraction\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bknow\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmass\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmass\\ star\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmilky\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmilky\\ way\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\borbit\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bplanets\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsolar\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsolar\\ system\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstar\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstars\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsystem\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\buniverse\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  }
+}

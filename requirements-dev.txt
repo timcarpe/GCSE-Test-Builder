@@ -1,0 +1,26 @@
+# Testing
+pytest
+pytest-cov
+pytest-qt
+
+# Type checking
+mypy
+
+# Build and packaging
+pyinstaller
+
+# LLM plugin development (optional)
+ollama
+
+# Research and analysis tools
+scikit-learn
+scipy
+pandas
+matplotlib
+jupyter
+notebook
+ipython
+
+# Deep learning (optional, for experimental features)
+torch
+transformers

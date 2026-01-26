@@ -1,0 +1,2559 @@
+{
+  "01. States of matter": {
+    "description": "Including: boiling evaporating, cooling curves, diffusion, distinguishing properties, effects, evaporating freezing, gas, gases, kinetic, kinetic particle, liquids, particle, particle theory, pressure, solids, solids liquids, state, temperature, theory, volume",
+    "patterns": [
+      {
+        "pattern": "\\bboiling\\ evaporating\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcooling\\ curves\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdiffusion\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdistinguishing\\ properties\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\beffects\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bevaporating\\ freezing\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgases\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bkinetic\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bkinetic\\ particle\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bliquids\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bparticle\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bparticle\\ theory\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpressure\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsolids\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsolids\\ liquids\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstate\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\btemperature\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\btheory\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bvolume\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bis[\\s\\-]*monatomic\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmonatomic\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\badding[\\s\\-]*the\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\badding[\\s\\-]*the[\\s\\-]*missing\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bby[\\s\\-]*adding[\\s\\-]*the\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bequation[\\s\\-]*by\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bequation[\\s\\-]*by[\\s\\-]*adding\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmissing[\\s\\-]*state\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bequation\\s*adding\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\badding\\s*the\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmissing\\s*state\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "02. Atoms, elements and compounds": {
+    "description": "Including: boiling points, bonding, bonds, compounds, conductivity, covalent, electrical, electrical conductivity, electronic, electrons, elements, formation, ionic, ions, melting points, number, points, properties, same, structure",
+    "patterns": [
+      {
+        "pattern": "\\bboiling\\ points\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bbonding\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbonds\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcompounds\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bconductivity\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcovalent\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\belectrical\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\belectrical\\ conductivity\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\belectronic\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\belectrons\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\belements\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bformation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bionic\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bions\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bmelting\\ points\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnumber\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bpoints\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bproperties\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bsame\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bstructure\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bname[\\s\\-]*compound\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\ban[\\s\\-]*element\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\ban[\\s\\-]*element[\\s\\-]*which\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\ban[\\s\\-]*ion\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\ban[\\s\\-]*ion[\\s\\-]*with\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcharge\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\belement[\\s\\-]*which\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\belement[\\s\\-]*which[\\s\\-]*forms\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\belement\\s*which\\b",
+        "weight": 1.8999999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwhich\\s*forms\\b",
+        "weight": 1.8999999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bforms\\s*ion\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bion\\s*with\\b",
+        "weight": 1.8999999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwith\\s*charge\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcompound\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bstate\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\batom\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btest\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bname\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbe[\\s\\-]*made\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bbe[\\s\\-]*made[\\s\\-]*from\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      }
+    ],
+    "sub_topics": []
+  },
+  "03. Stoichiometry": {
+    "description": "Including: amount, atomic, atomic mass, atoms, avogadro, avogadro constant, compound, dm3, equations, formula, formulae, mass, masses, mol, mole, molecular, number, relative, relative atomic, state",
+    "patterns": [
+      {
+        "pattern": "\\bamount\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\batomic\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\batomic\\ mass\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\batoms\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bavogadro\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bavogadro\\ constant\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcompound\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bequations\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bformula\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bformulae\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmass\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmasses\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmole\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmolecular\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnumber\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\brelative\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\brelative\\ atomic\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstate\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*symbol[\\s\\-]*equation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsymbol[\\s\\-]*equation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsymbol[\\s\\-]*equation[\\s\\-]*for\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*symbol\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bequation[\\s\\-]*for\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsymbol\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bconcentration[\\s\\-]*of[\\s\\-]*solution\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bof[\\s\\-]*solution\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bconcentration\\s*solution\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsolution\\s*used\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bused\\s*experiment\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bequation\\b",
+        "weight": 0.7,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\bthe\\s*concentration\\b",
+        "weight": 0.9,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\bthe\\s*symbol\\b",
+        "weight": 0.9,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\bcomplete\\b",
+        "weight": 0.85,
+        "low_weight_count": 1
+      }
+    ],
+    "sub_topics": []
+  },
+  "04. Electrochemistry": {
+    "description": "Including: anode, aqueous, carbon graphite, cathode, cells, compound, concentrated aqueous, during, electrode, electrodes, electrolysis, formed, fuel, hydrogen, hydrogen oxygen, molten, oxygen, oxygen fuel, products, state",
+    "patterns": [
+      {
+        "pattern": "\\banode\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\baqueous\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcarbon\\ graphite\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcathode\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcells\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcompound\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bconcentrated\\ aqueous\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bduring\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\belectrode\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\belectrodes\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\belectrolysis\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bformed\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bfuel\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bhydrogen\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bhydrogen\\ oxygen\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmolten\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\boxygen\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\boxygen\\ fuel\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bproducts\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstate\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\baluminium\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\ban[\\s\\-]*ionic\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\ban[\\s\\-]*ionic[\\s\\-]*compound\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bionic\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bionic[\\s\\-]*compound\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\baluminium[\\s\\-]*from\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\baluminium[\\s\\-]*from[\\s\\-]*purified\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "05. Chemical energetics": {
+    "description": "Including: activation, activation energy, bond, bond breaking, breaking, endothermic, endothermic reactions, energy, enthalpy, exothermic, leading, pathway, reaction, reaction pathway, reactions, state, surroundings, surroundings leading, thermal, thermal energy",
+    "patterns": [
+      {
+        "pattern": "\\bactivation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bactivation\\ energy\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbond\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbond\\ breaking\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbreaking\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bendothermic\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bendothermic\\ reactions\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\benergy\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\benthalpy\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bexothermic\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bleading\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpathway\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\breaction\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\breaction\\ pathway\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\breactions\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstate\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bsurroundings\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsurroundings\\ leading\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthermal\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bthermal\\ energy\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btemperature\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bafter[\\s\\-]*hours\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bhours\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdecrease\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bafter\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btemperature[\\s\\-]*decrease\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstate[\\s\\-]*the\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\baverage\\s*rate\\b",
+        "weight": 1.5,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bafter\\s*hours\\b",
+        "weight": 1.4,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btemperature\\s*decrease\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\brate\\s*temperature\\b",
+        "weight": 1.4,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*average\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\brepresents\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bstate[\\s\\-]*what\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bstate[\\s\\-]*what[\\s\\-]*the\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsymbol\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsymbol[\\s\\-]*represents\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmeaning\\b",
+        "weight": 0.85,
+        "low_weight_count": 1
+      },
+      {
+        "pattern": "\\bmeaning[\\s\\-]*of\\b",
+        "weight": 0.85,
+        "low_weight_count": 1
+      },
+      {
+        "pattern": "\\bpredict\\s*the\\b",
+        "weight": 1.125,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btemperature\\s*the\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*solution\\b",
+        "weight": 1.05,
+        "low_weight_count": 1
+      },
+      {
+        "pattern": "\\bsolution\\s*experiment\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bhours\\s*temperature\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmineral\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmineral[\\s\\-]*wool\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bof[\\s\\-]*the[\\s\\-]*mineral\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpurpose\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpurpose[\\s\\-]*of\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "06. Chemical reactions": {
+    "description": "Including: catalyst, conditions, contact, define, equilibrium, gain, number, oxidation, oxidation number, rate, reaction, reactions, redox, redox reactions, reversible, reversible reaction, state, sulfur, sulfur dioxide, typical conditions",
+    "patterns": [
+      {
+        "pattern": "\\bcatalyst\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bconditions\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcontact\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdefine\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bequilibrium\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgain\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnumber\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\boxidation\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\boxidation\\ number\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\brate\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\breaction\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\breactions\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bredox\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bredox\\ reactions\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\breversible\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\breversible\\ reaction\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstate\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bsulfur\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bsulfur\\ dioxide\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btypical\\ conditions\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bequation[\\s\\-]*for\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsymbol[\\s\\-]*equation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsymbol[\\s\\-]*equation[\\s\\-]*for\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsodium\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bequation\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bprocess\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsymbol\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*symbol[\\s\\-]*equation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bseconds\\s*minutes\\b",
+        "weight": 1.5,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bminutes\\s*seconds\\b",
+        "weight": 1.4,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bequation\\s*for\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsymbol\\s*equation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btypical\\s*operating\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btable\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bminutes\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bseconds[\\s\\-]*minutes\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bname[\\s\\-]*this\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bname[\\s\\-]*this[\\s\\-]*industrial\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthis[\\s\\-]*industrial\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthis[\\s\\-]*industrial[\\s\\-]*process\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bchromite\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bby[\\s\\-]*fermentation\\b",
+        "weight": 1.2999999999999998,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfermentation\\b",
+        "weight": 0.7,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\bis[\\s\\-]*manufactured[\\s\\-]*by\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmanufactured[\\s\\-]*by\\b",
+        "weight": 1.2999999999999998,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmanufactured[\\s\\-]*by[\\s\\-]*fermentation\\b",
+        "weight": 0.7,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\bis[\\s\\-]*manufactured\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmanufactured\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*symbol\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bequation[\\s\\-]*for[\\s\\-]*the\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btable\\s*time\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "07. Acids, bases and salts": {
+    "description": "Including: acid, acids, alkalis, ammonium, ammonium salts, amphoteric oxides, aqueous, aqueous solutions, bases, characteristic, characteristic properties, define, except, insoluble, oxides, salts, soluble, state, substance, water",
+    "patterns": [
+      {
+        "pattern": "\\bacid\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bacids\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\balkalis\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bammonium\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bammonium\\ salts\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bamphoteric\\ oxides\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\baqueous\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\baqueous\\ solutions\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbases\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcharacteristic\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcharacteristic\\ properties\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdefine\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bexcept\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\binsoluble\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\boxides\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsalts\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsoluble\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstate\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bsubstance\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bwater\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\boxide\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bions\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bcompound\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bgas[\\s\\-]*that\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgas[\\s\\-]*that[\\s\\-]*is\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bidentified\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bidentified[\\s\\-]*using\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bis[\\s\\-]*identified\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bions\\s*and\\b",
+        "weight": 1.0000000000000002,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*compound\\b",
+        "weight": 1.0000000000000002,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcompound\\s*made\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmade\\s*mg2\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmg2\\s*ions\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcarbonate\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bbasic\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bbasic[\\s\\-]*oxide\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bis[\\s\\-]*basic\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bis[\\s\\-]*basic[\\s\\-]*oxide\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bindicator\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bamphoteric\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcolourless\\s*liquid\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcolour\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgas[\\s\\-]*produced\\b",
+        "weight": 0.7,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\bgas[\\s\\-]*produced[\\s\\-]*in\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bidentify[\\s\\-]*the[\\s\\-]*gas\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bproduced[\\s\\-]*in\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bafter\\s*water\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwater\\s*added\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnitric\\b",
+        "weight": 0.85,
+        "low_weight_count": 1
+      },
+      {
+        "pattern": "\\bcolourless\\b",
+        "weight": 0.85,
+        "low_weight_count": 1
+      },
+      {
+        "pattern": "\\bcolourless[\\s\\-]*liquid\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bliquid\\b",
+        "weight": 0.85,
+        "low_weight_count": 1
+      },
+      {
+        "pattern": "\\bcarbonate[\\s\\-]*ion\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bformula[\\s\\-]*of\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bformula[\\s\\-]*of[\\s\\-]*the\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "08. The Periodic Table": {
+    "description": "Including: electronic configuration, elements, gases, group, group vii, halogens, increasing, increasing density, information, ions, metals, noble gases, number, other, other elements, periodic, periodic table, predict, properties, transition elements",
+    "patterns": [
+      {
+        "pattern": "\\belectronic\\ configuration\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\belements\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgases\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bgroup\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bgroup\\ vii\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bhalogens\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bincreasing\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bincreasing\\ density\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\binformation\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bions\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bmetals\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnoble\\ gases\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnumber\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bother\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bother\\ elements\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bperiodic\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bperiodic\\ table\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpredict\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bproperties\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\btransition\\ elements\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btransition\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btransition[\\s\\-]*element\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\belement\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\balkali\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\balkali[\\s\\-]*metal\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\balkali[\\s\\-]*metal[\\s\\-]*which\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bidentify[\\s\\-]*the[\\s\\-]*alkali\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmetal[\\s\\-]*which\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btransition\\s*element\\b",
+        "weight": 1.7999999999999996,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "09. Metals": {
+    "description": "Including: alloys, aluminium, because, calcium, carbon, copper, electrical, electrical conductivity, iron, metals, oxide, physical properties, properties, reactions, reactivity, reactivity series, series, state, zinc, zinc iron",
+    "patterns": [
+      {
+        "pattern": "\\balloys\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\baluminium\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bbecause\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcalcium\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bcarbon\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcopper\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\belectrical\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\belectrical\\ conductivity\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\biron\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmetals\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\boxide\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bphysical\\ properties\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bproperties\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\breactions\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\breactivity\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\breactivity\\ series\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bseries\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bstate\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bzinc\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bzinc\\ iron\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmetal\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\breactive\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bin[\\s\\-]*the[\\s\\-]*list\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blist\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmetal[\\s\\-]*in\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmetal[\\s\\-]*in[\\s\\-]*the\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\breactive[\\s\\-]*metal\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\breactive[\\s\\-]*metal[\\s\\-]*in\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmetal\\s*that\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*blast\\b",
+        "weight": 1.7999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bblast\\s*furnace\\b",
+        "weight": 1.7999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\breactive\\s*metal\\b",
+        "weight": 1.7999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmetal\\s*the\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bused[\\s\\-]*in\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\belectrical[\\s\\-]*wiring\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bin[\\s\\-]*electrical\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bin[\\s\\-]*electrical[\\s\\-]*wiring\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bname[\\s\\-]*the[\\s\\-]*main\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bof[\\s\\-]*aluminium\\b",
+        "weight": 0.7,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\bore[\\s\\-]*of[\\s\\-]*aluminium\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmain\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\ban[\\s\\-]*improvement\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\ban[\\s\\-]*improvement[\\s\\-]*in\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbe[\\s\\-]*an[\\s\\-]*improvement\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbeaker\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbeaker[\\s\\-]*would\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "10. Chemistry of the environment": {
+    "description": "Including: acid rain, air, aquatic life, carbon, carbon dioxide, climate, compounds, dioxide, energy, fertilisers, fuels, global warming, life, metal compounds, methane, nitrogen, oxygen, state, sulfur dioxide, water",
+    "patterns": [
+      {
+        "pattern": "\\bacid\\ rain\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\baquatic\\ life\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcarbon\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcarbon\\ dioxide\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bclimate\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcompounds\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bdioxide\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\benergy\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bfertilisers\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfuels\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bglobal\\ warming\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blife\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmetal\\ compounds\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmethane\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnitrogen\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\boxygen\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bstate\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bsulfur\\ dioxide\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwater\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bclean\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bclean[\\s\\-]*dry\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bclean[\\s\\-]*dry[\\s\\-]*air\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdry[\\s\\-]*air\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bapproximately\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bapproximately[\\s\\-]*of\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bapproximately[\\s\\-]*of[\\s\\-]*clean\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bof[\\s\\-]*clean\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bclean\\s*dry\\b",
+        "weight": 1.4,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bapproximately\\s*clean\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnitrate\\s*ions\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsubstance\\s*reason\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bacid[\\s\\-]*rain\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcauses\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcauses[\\s\\-]*acid\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcauses[\\s\\-]*acid[\\s\\-]*rain\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\brain\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bas[\\s\\-]*lubricant\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bis[\\s\\-]*used[\\s\\-]*as\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\blubricant\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfrom[\\s\\-]*methane\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bis[\\s\\-]*manufactured[\\s\\-]*from\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmanufactured[\\s\\-]*from\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmanufactured[\\s\\-]*from[\\s\\-]*methane\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfor[\\s\\-]*photosynthesis\\b",
+        "weight": 1.15,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgas[\\s\\-]*needed\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgas[\\s\\-]*needed[\\s\\-]*for\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bneeded\\b",
+        "weight": 0.85,
+        "low_weight_count": 1
+      },
+      {
+        "pattern": "\\bneeded[\\s\\-]*for\\b",
+        "weight": 0.85,
+        "low_weight_count": 1
+      }
+    ],
+    "sub_topics": []
+  },
+  "11. Organic chemistry": {
+    "description": "Including: acid, addition, alkanes, alkenes, atoms, carbon, carboxylic acids, chemistry, displayed, displayed formulae, ethanol, formula, formulae, fraction, fuel, group, name, properties, reaction, state",
+    "patterns": [
+      {
+        "pattern": "\\bacid\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\baddition\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\balkanes\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\balkenes\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\batoms\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcarbon\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcarboxylic\\ acids\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bchemistry\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdisplayed\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdisplayed\\ formulae\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bethanol\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bformula\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bformulae\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfraction\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfuel\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgroup\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bname\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bproperties\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\breaction\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bstate\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bhydrocarbon\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bhydrocarbons\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bterm\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*term\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\ban[\\s\\-]*unsaturated\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\ban[\\s\\-]*unsaturated[\\s\\-]*hydrocarbon\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bis[\\s\\-]*an[\\s\\-]*unsaturated\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bunsaturated\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bby[\\s\\-]*fermentation\\b",
+        "weight": 1.4499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bis[\\s\\-]*manufactured\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bis[\\s\\-]*manufactured[\\s\\-]*by\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmanufactured\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmanufactured[\\s\\-]*by\\b",
+        "weight": 1.4499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bester\\b",
+        "weight": 1.2999999999999998,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bname[\\s\\-]*the[\\s\\-]*ester\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*ester\\b",
+        "weight": 1.2999999999999998,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bname[\\s\\-]*the\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmanufactured[\\s\\-]*by[\\s\\-]*fermentation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "12. Experimental techniques and chemical analysis": {
+    "description": "Including: acid, acid base, ammonia, aqueous, aqueous sodium, calcium ca2, carbon dioxide, chemistry, chromatography, dilute, dilute nitric, dioxide, dissolved, distance travelled, distillation, paper, solution, solvent, substance, substances",
+    "patterns": [
+      {
+        "pattern": "\\bacid\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bacid\\ base\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bammonia\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\baqueous\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\baqueous\\ sodium\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcalcium\\ ca2\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcarbon\\ dioxide\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bchemistry\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bchromatography\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdilute\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdilute\\ nitric\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdioxide\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bdissolved\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bdistance\\ travelled\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdistillation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpaper\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsolution\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsolvent\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsubstance\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bsubstances\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bapparatus\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btest\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*apparatus\\b",
+        "weight": 1.6,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*student\\b",
+        "weight": 2.1999999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdescribe\\s*test\\b",
+        "weight": 1.5,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btest\\s*observations\\b",
+        "weight": 2.0999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*results\\b",
+        "weight": 1.2000000000000002,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bexperiment\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bapparatus[\\s\\-]*labelled\\b",
+        "weight": 1.4499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blabelled\\b",
+        "weight": 1.4499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bof[\\s\\-]*apparatus\\b",
+        "weight": 1.4499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bof[\\s\\-]*apparatus[\\s\\-]*labelled\\b",
+        "weight": 1.4499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bin[\\s\\-]*fig\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\band[\\s\\-]*in[\\s\\-]*fig\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bapparatus\\s*labelled\\b",
+        "weight": 1.9499999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*items\\b",
+        "weight": 1.8499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bitems\\s*apparatus\\b",
+        "weight": 1.4,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blabelled\\s*and\\b",
+        "weight": 1.4,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bname\\s*the\\b",
+        "weight": 0.8,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bis[\\s\\-]*used\\b",
+        "weight": 0.7,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\berror\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcopper\\s*chloride\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsource\\s*error\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bexplain[\\s\\-]*why\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bexplain\\b",
+        "weight": 0.85,
+        "low_weight_count": 1
+      },
+      {
+        "pattern": "\\bexperiment\\s*and\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\band\\s*experiment\\b",
+        "weight": 1.225,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsuggest[\\s\\-]*why\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bused\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsuggest\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsuggest\\s*why\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  }
+}

@@ -1,0 +1,64 @@
+# --- Python & Environment ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.venv_*/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# --- IDEs ---
+.idea/
+.vscode/
+.DS_Store
+**/.DS_Store
+
+# --- Build & Distribution ---
+build/
+dist/
+build_resources/
+unsloth_compiled_cache/
+
+# --- Workspace & Data (Persisted Local Data) ---
+workspace/input_pdfs/
+workspace/slices_cache/
+workspace/slices_cache_v2/
+workspace/evidence/
+workspace/output_papers/
+workspace/models/
+workspace/cache/
+workspace/output/
+workspace/crash_logs/
+workspace/quality_reports/
+workspace/quality_reports_external/
+workspace/topic_diagnostics/
+workspace/gui_settings.json
+
+# --- Internal & Excluded Folders ---
+workspace/bugs/
+.agent/
+security_audit_*.md
+
+# --- Scripts & Generation ---
+scripts/generated_plugins/
+scripts/_ARCHIVED*/
+scripts/comparison_results/
+scripts/Plugin Generation (Strong Regex)/
+scripts/Plugin Generation Simplified/
+scripts/_ARCHIVED GCSE Plugin Generator scripts/Plugin Generation (Strong Regex)/
+
+# --- Docs & Architecture ---
+docs/architecture/bugs.md
+
+# --- Test Fixtures ---
+tests/extractor_v2/fixtures/*.pdf
+
+# --- Temporary / Debug ---
+reference material/
+test_config_debug.py
+test_transformers_load.py
+test_unsloth_qwen3.py
+test_unsloth.py

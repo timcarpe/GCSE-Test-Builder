@@ -1,0 +1,3197 @@
+{
+  "01. Information representation": {
+    "description": "Including: binary, binary coded, bit depth, bitmap, bitmap image, character, colour depth, compression, data, decimal, decimal bcd, depth, encoded, file, file size, graphic, image, image resolution, resolution, sampling",
+    "patterns": [
+      {
+        "pattern": "\\bbinary\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bbinary\\ coded\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbit\\ depth\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbitmap\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbitmap\\ image\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcharacter\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcolour\\ depth\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcompression\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdata\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bdecimal\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdecimal\\ bcd\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdepth\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bencoded\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfile\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bfile\\ size\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgraphic\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bimage\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bimage\\ resolution\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bresolution\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsampling\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcharacter[\\s\\-]*set\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdrawing\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*binary\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*binary[\\s\\-]*number\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdrawing[\\s\\-]*list\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bproperty\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bvector\\s*graphic\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdrawing\\s*list\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcharacter\\s*set\\b",
+        "weight": 1.8999999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfor\\s*passcode\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcharacter\\s*may\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "02. Communication": {
+    "description": "Including: access, address, area, area network, bit, bit streaming, cable, cloud computing, differences, interface card, internet, network, network interface, networks, public, streaming, wide, wide web, wireless, world wide",
+    "patterns": [
+      {
+        "pattern": "\\baccess\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\baddress\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\barea\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\barea\\ network\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbit\\ streaming\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcable\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcloud\\ computing\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdifferences\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\binterface\\ card\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\binternet\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnetwork\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnetwork\\ interface\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnetworks\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpublic\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstreaming\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwide\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwide\\ web\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwireless\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bworld\\ wide\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bhdmi\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdescribe[\\s\\-]*the\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bport\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdrawbacks\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdrawbacks[\\s\\-]*of\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmonitor\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcharacteristics\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcharacteristics[\\s\\-]*of\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bhdmi\\s*port\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bhigh\\s*definition\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdefinition\\s*multimedia\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmultimedia\\s*interface\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\binterface\\s*hdmi\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "03. Hardware": {
+    "description": "Including: circuit, construct, devices, erasable programmable, expression, gates, logic, logic circuit, logic expression, logic gates, memory, problem, problem statement, programmable, programmable rom, rom, systems, table, truth, truth table",
+    "patterns": [
+      {
+        "pattern": "\\bcircuit\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bconstruct\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bdevices\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\berasable\\ programmable\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bexpression\\b",
+        "weight": 0.5499999999999998,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bgates\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blogic\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\blogic\\ circuit\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\blogic\\ expression\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blogic\\ gates\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmemory\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bproblem\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bproblem\\ statement\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bprogrammable\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bprogrammable\\ rom\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsystems\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btable\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\btruth\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btruth\\ table\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bprinter\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsensor\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bexpressions[\\s\\-]*for\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bexpressions[\\s\\-]*for[\\s\\-]*the\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blogic[\\s\\-]*expressions\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blogic[\\s\\-]*expressions[\\s\\-]*for\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bexternal\\s*daylight\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdaylight\\s*level\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*logic\\b",
+        "weight": 1.7999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blogic\\s*expressions\\b",
+        "weight": 1.7999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bexpressions\\s*for\\b",
+        "weight": 1.7999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcache\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcache[\\s\\-]*memory\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcomputer\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      }
+    ],
+    "sub_topics": []
+  },
+  "04. Processor Fundamentals": {
+    "description": "Including: acc, accumulator, add, address, addressing, assembly, assembly language, bit, bitwise, bus, compare, data, denotes, index register, instruction, number, operand, operation, purpose, register",
+    "patterns": [
+      {
+        "pattern": "\\baccumulator\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\baddress\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\baddressing\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bassembly\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bassembly\\ language\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbitwise\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcompare\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdata\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bdenotes\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bindex\\ register\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\binstruction\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnumber\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\boperand\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\boperation\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpurpose\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bregister\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsystem\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bcomputer\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bpurpose[\\s\\-]*registers\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bregisters\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcomputer[\\s\\-]*system\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbinary[\\s\\-]*shift\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bright\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bcomputer\\s*system\\b",
+        "weight": 1.8999999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*performance\\b",
+        "weight": 0.7000000000000002,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bsystem\\s*clock\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\baffects\\s*the\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpurpose\\s*registers\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcontent\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcomputer[\\s\\-]*has\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcomputer[\\s\\-]*has[\\s\\-]*single\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bghz[\\s\\-]*cpu\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcurrent\\s*contents\\b",
+        "weight": 1.4,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bare\\s*shown\\b",
+        "weight": 1.4,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "05. System Software": {
+    "description": "Including: code, compiler, constructed, development, disk, dynamic, file, files, high-level, high-level language, interpreter, language, language program, management, operating, operating system, program, software, system, translation",
+    "patterns": [
+      {
+        "pattern": "\\bcode\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bcompiler\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bconstructed\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdevelopment\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdisk\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdynamic\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfile\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bfiles\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bhigh\\-level\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bhigh\\-level\\ language\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\binterpreter\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blanguage\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\blanguage\\ program\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmanagement\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\boperating\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\boperating\\ system\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bprogram\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bsoftware\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bsystem\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\btranslation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bprocess\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bidentify[\\s\\-]*three\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bidentify[\\s\\-]*three[\\s\\-]*process\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bprocess[\\s\\-]*states\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstates\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bidentify\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bassembler\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfirst[\\s\\-]*pass\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "06. Security, privacy and data integrity": {
+    "description": "Including: check, data, data entry, data security, data transfer, data validation, data verification, designed, during, during data, encryption, entry, integrity, posed, protect, security, spyware, threats, transfer, validation",
+    "patterns": [
+      {
+        "pattern": "\\bcheck\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bdata\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bdata\\ entry\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdata\\ security\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdata\\ transfer\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdata\\ validation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdata\\ verification\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdesigned\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bduring\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bduring\\ data\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bencryption\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bentry\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bintegrity\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bposed\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bprotect\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsecurity\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bspyware\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthreats\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btransfer\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bvalidation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsystem\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bcause\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbe[\\s\\-]*verified\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbe[\\s\\-]*verified[\\s\\-]*using\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bchecksum\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\busing[\\s\\-]*checksum\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bverified\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bverified[\\s\\-]*using\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfiles\\s*secure\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*files\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bverified\\s*using\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\busing\\s*checksum\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bduring\\s*electronic\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "07. Ethics and Ownership": {
+    "description": "Including: act, act ethically, acting ethically, artificial intelligence, bcs british, computing professional, ethical body, ethically, ethics, free software, ieee institute, initiative shareware, open source, professional, situation, society ieee, software, software foundation, software licencing, source initiative",
+    "patterns": [
+      {
+        "pattern": "\\bact\\ ethically\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bacting\\ ethically\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bartificial\\ intelligence\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbcs\\ british\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcomputing\\ professional\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bethical\\ body\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bethically\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bethics\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfree\\ software\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bieee\\ institute\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\binitiative\\ shareware\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bopen\\ source\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bprofessional\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsituation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsociety\\ ieee\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsoftware\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bsoftware\\ foundation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsoftware\\ licencing\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsource\\ initiative\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btwo\\s*benefits\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbenefits\\s*distributing\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdistributing\\s*software\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsoftware\\s*using\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsoftware\\s*licence\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "08. Databases": {
+    "description": "Including: approach, carries out, create, data, data manipulation, database, database design, database management, database tables, dbms, dbms carries, ddl, ddl statements, dml, field, language, language ddl, normal form, sql, table",
+    "patterns": [
+      {
+        "pattern": "\\bapproach\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcarries\\ out\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcreate\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bdata\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bdata\\ manipulation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdatabase\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdatabase\\ design\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdatabase\\ management\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdatabase\\ tables\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdbms\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdbms\\ carries\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bddl\\ statements\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfield\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\blanguage\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\blanguage\\ ddl\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnormal\\ form\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btable\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bitem\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bcustomer\\b",
+        "weight": 0.85,
+        "low_weight_count": 1
+      },
+      {
+        "pattern": "\\bforeign\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*customer\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bforeign[\\s\\-]*key\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*total\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\btotal\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bforeign\\s*key\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsql\\s*script\\b",
+        "weight": 1.7999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\boutput\\s*the\\b",
+        "weight": 0.6,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\btotal\\s*cost\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bidentifier\\s*table\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "09. Algorithm Design and Problem-solving": {
+    "description": "Including: abstract model, abstraction, algorithm, algorithms, break down, computational thinking, contains input, define parts, defined steps, description, english, english description, flowchart, identifier, problem, pseudocode, sequence, solution, structured, structured english",
+    "patterns": [
+      {
+        "pattern": "\\babstract\\ model\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\babstraction\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\balgorithm\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\balgorithms\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bbreak\\ down\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcomputational\\ thinking\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcontains\\ input\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdefine\\ parts\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdefined\\ steps\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdescription\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\benglish\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\benglish\\ description\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bflowchart\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bidentifier\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bproblem\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpseudocode\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsequence\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsolution\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstructured\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bstructured\\ english\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfor[\\s\\-]*module\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpseudocode[\\s\\-]*for[\\s\\-]*module\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bwrite[\\s\\-]*pseudocode[\\s\\-]*for\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmodule\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bpseudocode[\\s\\-]*for\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bwrite[\\s\\-]*pseudocode\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcheckmark\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfor\\s*module\\b",
+        "weight": 1.1,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnumber\\s*items\\b",
+        "weight": 0.7000000000000002,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bitems\\s*sold\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*number\\b",
+        "weight": 0.6,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\brepresenting\\s*the\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\berror\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bcorrection\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bchars\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bloyalty\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\barrow\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\barrow[\\s\\-]*symbol\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\barrow[\\s\\-]*symbol[\\s\\-]*used\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "10. Data Types and Structures": {
+    "description": "Including: adt, array, arrays, boolean, char string, data, files, integer real, linked, linked list, list, pseudocode, queue, real char, record, record structure, stack, stack queue, string boolean, structure",
+    "patterns": [
+      {
+        "pattern": "\\barray\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\barrays\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bboolean\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bchar\\ string\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdata\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bfiles\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\binteger\\ real\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blinked\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blinked\\ list\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blist\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bpseudocode\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bqueue\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\breal\\ char\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\brecord\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\brecord\\ structure\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstack\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bstack\\ queue\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstring\\ boolean\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstructure\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\btype\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bdata[\\s\\-]*type\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstatements\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*queue\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\boperators\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bvariable\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bdata\\s*type\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*queue\\b",
+        "weight": 0.6666666666666666,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bpseudocode\\s*statements\\b",
+        "weight": 1.9999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstatements\\s*declare\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdeclare\\s*the\\b",
+        "weight": 0.7000000000000002,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bprogram\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bfunction\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bcode\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bprogram[\\s\\-]*code\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*function\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bnode\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\band\\s*paste\\b",
+        "weight": 0.8500000000000002,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bpaste\\s*the\\b",
+        "weight": 0.8500000000000002,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bcode\\s*into\\b",
+        "weight": 0.8500000000000002,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\binto\\s*part\\b",
+        "weight": 0.8500000000000002,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bthe\\s*evidence\\b",
+        "weight": 0.8500000000000002,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bnull\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnull[\\s\\-]*pointer\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpointer\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bvalue\\b",
+        "weight": 0.85,
+        "low_weight_count": 1
+      },
+      {
+        "pattern": "\\bfeature\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdescribe\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfile\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstores\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "11. Programming": {
+    "description": "Including: algorithm, better suited, built-in functions, case structure, construction, count-controlled loop, declaration, define, function, functions, loop, parameter, parameters, procedure, programming, pseudocode, statements, structure, structured, variables",
+    "patterns": [
+      {
+        "pattern": "\\balgorithm\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bbetter\\ suited\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbuilt\\-in\\ functions\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcase\\ structure\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bconstruction\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcount\\-controlled\\ loop\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdeclaration\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdefine\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bfunction\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bfunctions\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bloop\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bparameter\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bparameters\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bprocedure\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bprogramming\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bpseudocode\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstatements\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bstructure\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bstructured\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bvariables\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bprogram\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bprogram[\\s\\-]*code\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bcode\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bexpression\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bpart\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bthe\\s*integer\\b",
+        "weight": 0.9000000000000002,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bprogram\\s*code\\b",
+        "weight": 0.5833333333333334,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bpart\\s*the\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*colour\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\barray\\s*strings\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bvariable\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bkeyword\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bindex\\b",
+        "weight": 0.5499999999999999,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bthe\\s*program\\b",
+        "weight": 1.5000000000000002,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\bevidence\\s*document\\b",
+        "weight": 1.4000000000000004,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\bwrite\\s*program\\b",
+        "weight": 1.1500000000000001,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\bthe\\s*procedure\\b",
+        "weight": 1.0500000000000003,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\bsave\\s*your\\b",
+        "weight": 1.0500000000000003,
+        "low_weight_count": 2
+      },
+      {
+        "pattern": "\\bloyalty\\b",
+        "weight": 0.85,
+        "low_weight_count": 1
+      },
+      {
+        "pattern": "\\blevel\\b",
+        "weight": 0.85,
+        "low_weight_count": 1
+      },
+      {
+        "pattern": "\\bcustomer\\b",
+        "weight": 0.85,
+        "low_weight_count": 1
+      },
+      {
+        "pattern": "\\bgame\\s*level\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bplayers\\s*that\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthat\\s*reached\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsales\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bvalue\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "12. Software Development": {
+    "description": "Including: algorithm, chart, computational, computational thinking, cycle, data, design, development, development life, errors, life, life cycle, maintenance, program, purpose, structure, structure chart, test, test plan, testing",
+    "patterns": [
+      {
+        "pattern": "\\balgorithm\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bchart\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcomputational\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcomputational\\ thinking\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcycle\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdata\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bdesign\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdevelopment\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdevelopment\\ life\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\berrors\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\blife\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blife\\ cycle\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmaintenance\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bprogram\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bpurpose\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bstructure\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bstructure\\ chart\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btest\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btest\\ plan\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btesting\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bprogram[\\s\\-]*contains\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*program[\\s\\-]*contains\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcontains[\\s\\-]*validation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcontains[\\s\\-]*validation[\\s\\-]*function\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bprogram[\\s\\-]*contains[\\s\\-]*validation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfeatures\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bvalidation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*program\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bthe\\s*error\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnew\\s*module\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bprogram\\s*contains\\b",
+        "weight": 1.7999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blocate\\s*the\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "13. Data Representation": {
+    "description": "Including: access, algorithms, binary, binary floating-point, data, define, file, file access, files, floating-point, floating-point numbers, floating-point real, hashing, hashing algorithms, numbers, random, real, representation, sequential, user-defined",
+    "patterns": [
+      {
+        "pattern": "\\baccess\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\balgorithms\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bbinary\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bbinary\\ floating\\-point\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdata\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bdefine\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bfile\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bfile\\ access\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfiles\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bfloating\\-point\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfloating\\-point\\ numbers\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfloating\\-point\\ real\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bhashing\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bhashing\\ algorithms\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnumbers\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\brandom\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\breal\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\brepresentation\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsequential\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\buser\\-defined\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdenary\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bworking\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe[\\s\\-]*denary\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcan[\\s\\-]*result\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcan[\\s\\-]*result[\\s\\-]*in\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bresult[\\s\\-]*in\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdenary[\\s\\-]*value\\b",
+        "weight": 1.5999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*denary\\b",
+        "weight": 1.9999999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btwo\\s*complement\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcan\\s*result\\b",
+        "weight": 1.8999999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdenary\\s*value\\b",
+        "weight": 1.8999999999999997,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcomplement\\s*binary\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "14. Communication and internet technologies": {
+    "description": "Including: applicable, application, application transport, bittorrent, bittorrent protocol, circuit, circuit switching, drawbacks, file sharing, four layers, function, imap smtp, internet, layer, layers application, packet, packet switching, protocol, protocols, switching",
+    "patterns": [
+      {
+        "pattern": "\\bapplicable\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bapplication\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bapplication\\ transport\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbittorrent\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbittorrent\\ protocol\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcircuit\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bcircuit\\ switching\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdrawbacks\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfile\\ sharing\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfour\\ layers\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfunction\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bimap\\ smtp\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\binternet\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blayer\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\blayers\\ application\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpacket\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpacket\\ switching\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bprotocol\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bprotocols\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bswitching\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "15. Hardware and Virtual Machines": {
+    "description": "Including: adders, algebra, boolean, boolean algebra, circuit, circuits, cisc, computers, instruction set, karnaugh, karnaugh maps, logic, logic circuit, logic circuits, machines, maps, processors, risc, virtual, virtual machines",
+    "patterns": [
+      {
+        "pattern": "\\badders\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\balgebra\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bboolean\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bboolean\\ algebra\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcircuit\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bcircuits\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcisc\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcomputers\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\binstruction\\ set\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bkarnaugh\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bkarnaugh\\ maps\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blogic\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\blogic\\ circuit\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\blogic\\ circuits\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmachines\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmaps\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bprocessors\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\brisc\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bvirtual\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bvirtual\\ machines\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "16. System Software": {
+    "description": "Including: analysis, analysis code, analysis syntax, backus-naur form, bnf notation, disk thrashing, execute programs, form bnf, interrupt, management, memory, notation, paging, scheduling, segmentation, shortest, syntax, user, virtual, virtual memory",
+    "patterns": [
+      {
+        "pattern": "\\banalysis\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\banalysis\\ code\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\banalysis\\ syntax\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbackus\\-naur\\ form\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbnf\\ notation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdisk\\ thrashing\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bexecute\\ programs\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bform\\ bnf\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\binterrupt\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmanagement\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmemory\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bnotation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpaging\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bscheduling\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsegmentation\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bshortest\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsyntax\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\buser\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bvirtual\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bvirtual\\ memory\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bby[\\s\\-]*disk\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bby[\\s\\-]*disk[\\s\\-]*thrashing\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdisk[\\s\\-]*thrashing\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bexplain[\\s\\-]*what\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bexplain[\\s\\-]*what[\\s\\-]*is\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmeant[\\s\\-]*by[\\s\\-]*disk\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthrashing\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdisk\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bexplain\\s*what\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmeant\\s*disk\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdisk\\s*thrashing\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsyntax\\s*diagrams\\b",
+        "weight": 1.7999999999999996,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  },
+  "17. Security": {
+    "description": "Including: asymmetric, asymmetric cryptography, certificate, cipher text, cryptography, digital, digital certificate, encryption, keys, layer, message, private, public, purpose, send, ssl, ssl tls, symmetric, text, tls",
+    "patterns": [
+      {
+        "pattern": "\\basymmetric\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\basymmetric\\ cryptography\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcertificate\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcipher\\ text\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcryptography\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdigital\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bdigital\\ certificate\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bencryption\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bkeys\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\blayer\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bmessage\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bprivate\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpublic\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpurpose\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bsend\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bssl\\ tls\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsymmetric\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\btext\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      }
+    ],
+    "sub_topics": []
+  },
+  "18. Artificial Intelligence (AI)": {
+    "description": "Including: access, aid, aid artificial, algorithms, artificial, artificial intelligence, artificial neural, categories, deep, dijkstra, errors, graph, graphs, helped, intelligence, machine, networks, perform, perform searches, searches",
+    "patterns": [
+      {
+        "pattern": "\\baccess\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\baid\\ artificial\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\balgorithms\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bartificial\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bartificial\\ intelligence\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bartificial\\ neural\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcategories\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdeep\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdijkstra\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\berrors\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bgraph\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bgraphs\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bhelped\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bintelligence\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmachine\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnetworks\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bperform\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bperform\\ searches\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsearches\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      }
+    ],
+    "sub_topics": []
+  },
+  "19. Computational thinking and Problem-solving": {
+    "description": "Including: adt, adts, algorithm, algorithms, binary, binary search, binary tree, data, graph, implement, insertion sort, item, linked, linked list, list, queue linked, recursion, search, sort, stack queue",
+    "patterns": [
+      {
+        "pattern": "\\badts\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\balgorithm\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\balgorithms\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bbinary\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bbinary\\ search\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bbinary\\ tree\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bdata\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bgraph\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bimplement\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\binsertion\\ sort\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bitem\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\blinked\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blinked\\ list\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blist\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bqueue\\ linked\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\brecursion\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsearch\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bsort\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bstack\\ queue\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bleft\\s*node\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bright\\s*node\\b",
+        "weight": 1.3,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\balgorithm\\s*you\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\binteger\\s*counter\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcounter\\s*for\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\boutputs\\s*the\\b",
+        "weight": 0.75,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bchecks\\s*the\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*left\\b",
+        "weight": 0.75,
+        "low_weight_count": 3
+      },
+      {
+        "pattern": "\\bnode\\s*null\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnull\\s*there\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bnode\\s*the\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfunction\\s*calls\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcalls\\s*itself\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bitself\\s*with\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*right\\b",
+        "weight": 0.9,
+        "low_weight_count": 2
+      }
+    ],
+    "sub_topics": []
+  },
+  "20. Further Programming": {
+    "description": "Including: ability, code, console, console mode, exception, exception handling, facilities, file, file-processing operations, handling, high-level programming, imperative, imperative procedural, list, low-level, mode, oop, practical, procedural, programming",
+    "patterns": [
+      {
+        "pattern": "\\bability\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bcode\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bconsole\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bconsole\\ mode\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bexception\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bexception\\ handling\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfacilities\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bfile\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bfile\\-processing\\ operations\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bhandling\\b",
+        "weight": 1.7499999999999996,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bhigh\\-level\\ programming\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bimperative\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bimperative\\ procedural\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\blist\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\blow\\-level\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bmode\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bpractical\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bprocedural\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bprogramming\\b",
+        "weight": 0.24999999999999992,
+        "low_weight_count": 5
+      },
+      {
+        "pattern": "\\bof[\\s\\-]*class\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\boutline[\\s\\-]*the\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\boutline[\\s\\-]*the[\\s\\-]*structure\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstructure\\b",
+        "weight": 0.3999999999999999,
+        "low_weight_count": 4
+      },
+      {
+        "pattern": "\\bstructure[\\s\\-]*of\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bstructure[\\s\\-]*of[\\s\\-]*class\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bidentify[\\s\\-]*the[\\s\\-]*object\\-oriented\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bobject\\-oriented\\b",
+        "weight": 1.0,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bthe\\s*object\\-oriented\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bobject\\-oriented\\s*programming\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      },
+      {
+        "pattern": "\\bprogramming\\s*oop\\b",
+        "weight": 1.2,
+        "low_weight_count": 0
+      }
+    ],
+    "sub_topics": []
+  }
+}

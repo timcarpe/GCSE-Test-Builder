@@ -1,0 +1,144 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://gcse-toolkit.local/schemas/regions.schema.json",
+    "title": "Regions V2 Schema",
+    "description": "Schema for regions.json containing slice bounds for a question's composite image",
+    "type": "object",
+    "required": [
+        "schema_version",
+        "question_id",
+        "composite_size",
+        "regions"
+    ],
+    "properties": {
+        "schema_version": {
+            "type": "integer",
+            "const": 3,
+            "description": "Schema version for regions.json (v3 adds validity and diagnostics fields)"
+        },
+        "question_id": {
+            "type": "string",
+            "description": "Question identifier this regions file belongs to"
+        },
+        "composite_size": {
+            "type": "object",
+            "required": [
+                "width",
+                "height"
+            ],
+            "properties": {
+                "width": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "description": "Composite image width in pixels"
+                },
+                "height": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "description": "Composite image height in pixels"
+                }
+            }
+        },
+        "horizontal_offset": {
+            "type": "integer",
+            "description": "Horizontal offset for alignment"
+        },
+        "numeral_bbox": {
+            "type": "array",
+            "items": {
+                "type": "integer"
+            },
+            "minItems": 4,
+            "maxItems": 4
+        },
+        "mark_bboxes": {
+            "type": "array",
+            "items": {
+                "type": "array",
+                "items": {
+                    "type": "integer"
+                },
+                "minItems": 4,
+                "maxItems": 4
+            }
+        },
+        "regions": {
+            "type": "object",
+            "description": "Map of part labels to their bounds",
+            "additionalProperties": {
+                "$ref": "#/$defs/region"
+            }
+        }
+    },
+    "$defs": {
+        "region": {
+            "type": "object",
+            "required": [
+                "bounds"
+            ],
+            "properties": {
+                "bounds": {
+                    "$ref": "#/$defs/bounds",
+                    "description": "Content bounds for this part"
+                },
+                "context_bounds": {
+                    "$ref": "#/$defs/bounds",
+                    "description": "Optional context/header bounds"
+                },
+                "kind": {
+                    "type": "string",
+                    "enum": [
+                        "question",
+                        "letter",
+                        "roman"
+                    ],
+                    "description": "Part type"
+                },
+                "marks": {
+                    "type": "integer",
+                    "minimum": 0
+                },
+                "label_bbox": {
+                    "$ref": "#/$defs/bounds"
+                },
+                "is_valid": {
+                    "type": "boolean"
+                },
+                "validation_issues": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "child_is_inline": {
+                    "type": "boolean"
+                }
+            }
+        },
+        "bounds": {
+            "type": "object",
+            "required": [
+                "top",
+                "bottom"
+            ],
+            "properties": {
+                "top": {
+                    "type": "integer",
+                    "minimum": 0
+                },
+                "bottom": {
+                    "type": "integer",
+                    "minimum": 1
+                },
+                "left": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "default": 0
+                },
+                "right": {
+                    "type": "integer"
+                }
+            }
+        }
+    }
+}

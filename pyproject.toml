@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gcse-test-builder"
+version = "1.2.1"
+description = "GCSE Exam extraction and test builder"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Timothy Carpenter" }]
+license = { text = "Polyform Noncommercial License 1.0.0" }
+dependencies = [
+  "Pillow",
+  "numpy",
+  "PyMuPDF",
+  "PySide6>=6.0.0",
+  "pyyaml",
+  "qtawesome",
+  "reportlab",
+  "joblib",
+  "portalocker",
+]
+
+[project.optional-dependencies]
+macos = [
+  "pyobjc-framework-Cocoa>=9.0",
+]
+dev = [
+  "pytest",
+  "pytest-cov",
+]
+
+[project.urls]
+homepage = "https://example.local/"
+
+[project.scripts]
+gcse-extract = "gcse_toolkit.extractor.cli:main"
+gcse-build = "gcse_toolkit.builder.assemble_paper:main"
+gcse-gui = "gcse_toolkit.gui_v2.app:run"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+norecursedirs = ["tests/_legacy", ".*", "build", "dist", "venv", ".venv"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]

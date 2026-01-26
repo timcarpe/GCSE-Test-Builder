@@ -1,0 +1,12 @@
+{
+  "manifest_schema_version": 3,
+  "code": "0610",
+  "name": "Biology 0610",
+  "subtopics_path": "topic_subtopics.json",
+  "default": false,
+  "supported_years": [],
+  "generated_at": "2026-01-15T02:36:04.070662+00:00",
+  "generator_version": "1.0.0",
+  "board": "Cambridge",
+  "model": "models/topic_model.joblib"
+}
