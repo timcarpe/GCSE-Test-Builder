@@ -5,6 +5,14 @@ All notable changes to GCSE Test Builder will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.3] - 2026-01-27
+
+### Changed
+- **Disabled "0 Marks = All Questions" Feature**: Temporarily disabled the feature that allowed outputting all questions for a single topic when target marks was set to 0.
+  - The confirmation popup in this flow was causing the overlay to hang when errors occurred after the popup was dismissed.
+  - Setting target marks to 0 now returns an immediate validation error with console logging.
+  - Updated tooltip to remove reference to the disabled feature.
+
 ## [1.2.2] - 2026-01-27
 
 ### Fixed

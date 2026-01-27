@@ -1035,7 +1035,7 @@ class BuildTab(QWidget):
         entry.setAlignment(Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignVCenter)
         help_text = None
         if "Target Marks" in label:
-            help_text = "Target total marks for the generated exam (e.g., 40). Enter 0 to output all questions for a single selected topic."
+            help_text = "Target total marks for the generated exam (e.g., 40)."
         elif "Tolerance" in label:
             help_text = "Acceptable deviation from target marks (e.g., ±2)"
         if help_text:
@@ -1262,32 +1262,44 @@ class BuildTab(QWidget):
             if target_marks < 0:
                 return "Target marks cannot be negative."
             if target_marks == 0:
-                # Special case: output all questions
-                # Must have exactly one topic selected, no sub-topics
-                filter_mode = self._current_filter_mode()
-                if filter_mode != "Topics":
-                    return "Mark target 0 (all questions) is only available in Topics mode."
-                
-                topics = self.topic_selector.get_selected_topics()
-                sub_topics = self.topic_selector.get_selected_sub_topics()
-                
-                if len(topics) != 1 or sub_topics:
-                    return "Mark target 0 (all questions) requires exactly one topic selected (no sub-topics)."
-                
-                # Show confirmation dialog
-                from PySide6.QtWidgets import QMessageBox
-                reply = QMessageBox.question(
-                    self,
-                    "Output All Questions?",
-                    f"You have entered 0 for mark target.\n\n"
-                    f"This will output ALL questions from the selected topic '{topics[0]}'.\n\n"
-                    f"⚠️ This may take some time depending on the number of questions.\n\n"
-                    f"Do you want to continue?",
-                    QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No,
-                    QMessageBox.StandardButton.No
+                # TEMPORARILY DISABLED: "Output all questions" feature
+                # The confirmation popup in this flow was causing the overlay to hang
+                # when errors occurred after the popup was dismissed.
+                # For now, 0 marks is treated as an error.
+                import logging
+                logging.getLogger(__name__).error(
+                    "Target marks set to 0 - 'output all questions' feature is currently disabled"
                 )
-                if reply != QMessageBox.StandardButton.Yes:
-                    return "Generation cancelled."
+                return "Target marks must be greater than 0."
+                
+                # --- COMMENTED OUT: "Output all questions" feature ---
+                # # Special case: output all questions
+                # # Must have exactly one topic selected, no sub-topics
+                # filter_mode = self._current_filter_mode()
+                # if filter_mode != "Topics":
+                #     return "Mark target 0 (all questions) is only available in Topics mode."
+                # 
+                # topics = self.topic_selector.get_selected_topics()
+                # sub_topics = self.topic_selector.get_selected_sub_topics()
+                # 
+                # if len(topics) != 1 or sub_topics:
+                #     return "Mark target 0 (all questions) requires exactly one topic selected (no sub-topics)."
+                # 
+                # # Show confirmation dialog
+                # from PySide6.QtWidgets import QMessageBox
+                # reply = QMessageBox.question(
+                #     self,
+                #     "Output All Questions?",
+                #     f"You have entered 0 for mark target.\n\n"
+                #     f"This will output ALL questions from the selected topic '{topics[0]}'.\n\n"
+                #     f"⚠️ This may take some time depending on the number of questions.\n\n"
+                #     f"Do you want to continue?",
+                #     QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No,
+                #     QMessageBox.StandardButton.No
+                # )
+                # if reply != QMessageBox.StandardButton.Yes:
+                #     return "Generation cancelled."
+                # --- END COMMENTED OUT ---
         except ValueError:
             return "Target marks must be a valid integer."
         
