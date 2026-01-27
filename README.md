@@ -34,12 +34,12 @@ Teachers and students can:
 ### Download (Recommended)
 
 Download the latest release for your platform:
-- [Windows (.exe)](https://github.com/timcarpe/GCSE-Tool-Kit/releases)
-- [macOS (.dmg)](https://github.com/timcarpe/GCSE-Tool-Kit/releases)
+- [Windows (.exe)](https://github.com/timcarpe/GCSE-Test-Builder/releases)
+- [macOS (.dmg)](https://github.com/timcarpe/GCSE-Test-Builder/releases)
 
 ### Run from Source
 
-Requires Python 3.10+
+Requires Python 3.11+
 
 ```bash
 git clone https://github.com/timcarpe/GCSE-Tool-Kit.git
