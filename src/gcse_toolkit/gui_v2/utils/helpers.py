@@ -428,14 +428,45 @@ def _load_topics_from_jsonl(meta_path: Path, year_filter, paper_filter, bump_top
                 
                 try:
                     main_topic = payload.get("topic")
+                    child_topics = payload.get("child_topics")
                     
-                    # Count leaf parts only (not context roots)
-                    part_count = payload.get("leaf_part_count") or payload.get("part_count", 1)
+                    if child_topics and isinstance(child_topics, dict):
+                        # V2 Schema (9+): Attribute sub-parts to their actual topics
+                        labels = set(child_topics.keys())
+                        # A label is a leaf if it is not a parent of any other label in the set
+                        # Parents have children starting with "label("
+                        leaves = [l for l in labels if not any(other.startswith(l + "(") for other in labels)]
+                        
+                        if leaves:
+                            for leaf_label in leaves:
+                                leaf_topic = child_topics.get(leaf_label) or main_topic
+                                # Fallback for Unknown sub-parts if we have a valid main topic
+                                if leaf_topic == "00. Unknown" and main_topic and main_topic != "00. Unknown":
+                                    leaf_topic = main_topic
+                                bump_topic(leaf_topic, count=1)
+                                
+                            # Process sub-topics for the main question context
+                            canonical_main = bump_topic(main_topic, count=0)
+                            if canonical_main:
+                                for sub_topic in payload.get("sub_topics") or []:
+                                    bump_sub_topic(canonical_main, sub_topic)
+                        else:
+                            # Fallback if no leaves identified in child_topics
+                            count = payload.get("leaf_part_count") or payload.get("part_count", 1)
+                            canonical_main = bump_topic(main_topic, count=count)
+                            if canonical_main:
+                                for sub_topic in payload.get("sub_topics") or []:
+                                    bump_sub_topic(canonical_main, sub_topic)
+                    else:
+                        # V1 / Legacy Schema: Fallback to root topic for all parts
+                        count = payload.get("leaf_part_count") or payload.get("part_count", 1)
+                        canonical_main = bump_topic(main_topic, count=count)
+                        if canonical_main:
+                            for sub_topic in payload.get("sub_topics") or []:
+                                bump_sub_topic(canonical_main, sub_topic)
                     
-                    canonical_main = bump_topic(main_topic, count=part_count)
-                    for sub_topic in payload.get("sub_topics") or []:
-                        bump_sub_topic(canonical_main, sub_topic)
-                    collect_parts(payload.get("parts") or [], canonical_main)
+                    # Still support V1 nested parts structure if present
+                    collect_parts(payload.get("parts") or [], bump_topic(main_topic, count=0))
                 except Exception as e:
                     logger.warning(f"Error processing question data at line {line_num}: {e}")
                     continue

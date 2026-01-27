@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.2.3] - 2026-01-27
 
+### Fixed
+- **Accurate GUI Topic Counts**: Fixed issue where the Topic Selector overcounted available parts by attributing all parts of a question to its root topic.
+  - Now processes `child_topics` (Schema 9+) to attribute sub-parts to their actual topics.
+  - Implemented fallback to root topic for "Unknown" or missing sub-part topics, ensuring counts match relevant content.
+
 ### Changed
 - **Disabled "0 Marks = All Questions" Feature**: Temporarily disabled the feature that allowed outputting all questions for a single topic when target marks was set to 0.
   - The confirmation popup in this flow was causing the overlay to hang when errors occurred after the popup was dismissed.
