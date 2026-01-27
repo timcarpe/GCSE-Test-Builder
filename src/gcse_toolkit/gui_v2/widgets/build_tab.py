@@ -530,13 +530,21 @@ class BuildTab(QWidget):
         # Update border styling based on selection
         self._update_year_filter_style()
         
+        # Get current filter values
+        selected_years = self.year_filter.get_selected_years()
+        selected_papers = self.paper_filter.get_selected_papers()
+        
+        # Update keyword panel filters
+        self.keyword_panel.set_filters(
+            years=list(selected_years) if selected_years else None,
+            papers=list(selected_papers) if selected_papers else None,
+        )
+        
         # Refresh topic counts for selected years
         if hasattr(self, 'current_exam_code') and self.current_exam_code:
             meta_root_str = self.settings.get_metadata_root()
             if meta_root_str:
                 meta_root = Path(meta_root_str)
-                selected_years = self.year_filter.get_selected_years()
-                selected_papers = self.paper_filter.get_selected_papers()
                 
                 # Refresh topics with year and paper filters
                 self.topic_selector.load_topics_for_exam(
@@ -602,13 +610,21 @@ class BuildTab(QWidget):
         # Update border styling based on selection
         self._update_paper_filter_style()
         
+        # Get current filter values
+        selected_years = self.year_filter.get_selected_years()
+        selected_papers = self.paper_filter.get_selected_papers()
+        
+        # Update keyword panel filters
+        self.keyword_panel.set_filters(
+            years=list(selected_years) if selected_years else None,
+            papers=list(selected_papers) if selected_papers else None,
+        )
+        
         # Refresh topic counts for selected papers
         if hasattr(self, 'current_exam_code') and self.current_exam_code:
             meta_root_str = self.settings.get_metadata_root()
             if meta_root_str:
                 meta_root = Path(meta_root_str)
-                selected_years = self.year_filter.get_selected_years()
-                selected_papers = self.paper_filter.get_selected_papers()
                 
                 # Refresh topics with year and paper filters
                 self.topic_selector.load_topics_for_exam(

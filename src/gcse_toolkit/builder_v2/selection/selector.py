@@ -534,9 +534,12 @@ class Selector:
         """
         Select a specific question by ID using its generated options.
         
+        When force=True (for pinned questions/parts), ensures the selected option
+        includes ALL pinned labels for that question - not just budget-optimal.
+        
         Args:
             qid: Question ID to select
-            force: If True, select smallest option even if it exceeds budget.
+            force: If True, select option that includes ALL pinned labels even if it exceeds budget.
                    If False, skip if no option fits budget.
             is_keyword: If True, track as keyword match rather than pin.
         """
@@ -552,14 +555,50 @@ class Selector:
                 logger.warning(f"Pinned question {qid} not found or has no options")
             return
         
-        # Select best option for remaining budget
-        remaining = self.config.target_marks - self._current_marks
-        option = opts.best_option_for_marks(remaining)
+        # Determine which labels are pinned for this question
+        pinned_labels_for_q = set()
+        for pin in self.config.pinned_part_labels:
+            if pin.startswith(f"{qid}::"):
+                label = pin.split("::")[-1]
+                pinned_labels_for_q.add(label)
+                # Expand to include leaf children (for non-leaf pins)
+                part = opts.question.get_part(label)
+                if part:
+                    for child in part.iter_all():
+                        if child.is_leaf:
+                            pinned_labels_for_q.add(child.label)
         
-        if option is None and force:
-            # Force: Take smallest option even if it goes over
-            option = opts.options[-1]
-            logger.debug(f"Force-selecting pinned question {qid} (exceeds budget)")
+        is_full_q_pinned = qid in self.config.pinned_question_ids
+        
+        option = None
+        remaining = self.config.target_marks - self._current_marks
+        
+        if force and (pinned_labels_for_q or is_full_q_pinned):
+            # For forced pins: find the SMALLEST option that includes ALL pinned labels
+            # Options are sorted by marks descending, so iterate backwards for smallest first
+            if is_full_q_pinned:
+                # Full question pinned - must select the full option (first one, which has all parts)
+                option = opts.options[0]
+                logger.debug(f"Force-selecting full pinned question {qid}")
+            else:
+                # Part-level pins - find smallest option containing all pinned labels
+                for opt in reversed(opts.options):
+                    if pinned_labels_for_q <= opt.included_parts:
+                        option = opt
+                        break
+                
+                if option is None and opts.options:
+                    # Fallback: take the full option (largest) to guarantee all pins included
+                    option = opts.options[0]
+                    logger.debug(f"Force-selecting full option for {qid} to include all pins")
+        else:
+            # Non-forced (keyword match) or no specific pins: select based on budget
+            option = opts.best_option_for_marks(remaining)
+            
+            if option is None and force:
+                # Force: Take smallest option even if it goes over
+                option = opts.options[-1]
+                logger.debug(f"Force-selecting pinned question {qid} (exceeds budget)")
         
         if option:
             self._add_selection(option, is_keyword=is_keyword)
@@ -640,17 +679,45 @@ class Selector:
         Prune parts from selected questions to hit exact target.
         
         Removes lowest-value parts one at a time until within tolerance.
+        Pinned parts are protected from pruning.
         """
         from .pruning import prune_selection
         
         if self.config.is_within_tolerance(self._current_marks):
             return
         
+        # Calculate protected labels (pinned parts that should never be pruned)
+        protected_labels: set[str] = set()
+        
+        # Add all pinned question IDs (entire question protected)
+        for qid in self.config.pinned_question_ids:
+            # Find the plan for this question and protect all its parts
+            for plan in self._selected:
+                if plan.question.id == qid:
+                    protected_labels.update(f"{qid}::{label}" for label in plan.included_parts)
+                    break
+        
+        # Add all pinned part labels (format: "qid::label")
+        for pin in self.config.pinned_part_labels:
+            if "::" in pin:
+                qid, label = pin.split("::", 1)
+                protected_labels.add(pin)
+                # Also protect leaf children of pinned parts
+                for plan in self._selected:
+                    if plan.question.id == qid:
+                        part = plan.question.get_part(label)
+                        if part:
+                            for child in part.iter_all():
+                                if child.is_leaf:
+                                    protected_labels.add(f"{qid}::{child.label}")
+                        break
+        
         self._selected = prune_selection(
             plans=self._selected,
             target_marks=self.config.target_marks,
             tolerance=self.config.tolerance,
             part_mode=self.config.part_mode,
+            protected_labels=protected_labels,
         )
         
         # Recalculate marks

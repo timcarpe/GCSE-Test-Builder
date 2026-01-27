@@ -5,6 +5,19 @@ All notable changes to GCSE Test Builder will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.2] - 2026-01-27
+
+### Fixed
+- **Pinned Questions Not Appearing in PDF**: Fixed critical bug where pinned questions and parts were not reliably included in the final generated exam when using Keyword Mode.
+  - Pinned parts are now guaranteed to be included in the selection, even if they exceed the mark budget.
+  - The selection logic now finds the smallest option that contains ALL pinned labels (not just budget-optimal).
+  - Pinned parts are now protected from pruning during mark target adjustment.
+  - Added 7 new unit tests to verify pinned parts protection.
+- **Keyword Panel Ignoring Year/Paper Filters**: Fixed issue where Keyword Mode preview results showed all matching questions regardless of the active Year and Paper filters.
+  - Keyword search results are now filtered to respect the selected year(s) and paper(s).
+  - Match counts update to reflect only questions matching the active filters.
+  - Filter changes in Build tab automatically update Keyword Panel filters.
+
 ## [1.2.1] - 2026-01-26
 
 ### Changed

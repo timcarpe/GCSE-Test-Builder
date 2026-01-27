@@ -128,12 +128,13 @@ def prune_selection(
     target_marks: int,
     tolerance: int,
     part_mode: PartMode = PartMode.SKIP,
+    protected_labels: set[str] | None = None,
 ) -> List[SelectionPlan]:
     """
     Prune parts across multiple plans to hit target.
     
     Strategy:
-    1. Find plans with removable parts (respecting mode)
+    1. Find plans with removable parts (respecting mode and protected labels)
     2. Remove lowest-mark parts one at a time
     3. Stop when within tolerance
     
@@ -142,6 +143,7 @@ def prune_selection(
         target_marks: Target total marks
         tolerance: Acceptable deviation
         part_mode: Pruning constraint mode
+        protected_labels: Set of "qid::label" strings that must not be removed (pinned parts)
         
     Returns:
         New list of plans with parts pruned
@@ -151,6 +153,8 @@ def prune_selection(
         
     if part_mode == PartMode.ALL:
         return list(plans)
+    
+    protected = protected_labels or set()
     
     # Calculate current total
     current_total = sum(p.marks for p in plans)
@@ -176,20 +180,40 @@ def prune_selection(
             has_prunable_plans = True
             current_leaves = list(plan.included_leaves)
             
+            # Get question ID for protected check
+            qid = plan.question.id
+            
+            # Filter out protected leaves
+            prunable_leaves = [
+                leaf for leaf in current_leaves
+                if f"{qid}::{leaf.label}" not in protected
+            ]
+            
+            # If all leaves are protected, skip this plan
+            if not prunable_leaves:
+                continue
+            
+            # Must retain at least one leaf (protected or not)
+            # Calculate how many leaves we can remove
+            protected_count = len(current_leaves) - len(prunable_leaves)
+            if protected_count >= len(current_leaves) - 1:
+                # Too many protected, can't prune without removing last leaf
+                continue
+            
             # Determine valid candidates for this plan based on mode
             if part_mode == PartMode.PRUNE:
-                # Can only remove the LAST part
+                # Can only remove the LAST part (if it's not protected)
                 # Sort by bounds
                 sorted_leaves = sorted(
-                    current_leaves,
+                    prunable_leaves,
                     key=lambda p: (p.bounds.top if p.bounds else 0, p.bounds.left if p.bounds else 0)
                 )
                 victim = sorted_leaves[-1]
                 candidates.append((idx, victim, victim.marks.value))
                 
             else:  # SKIP
-                # Can remove ANY part
-                for leaf in current_leaves:
+                # Can remove ANY non-protected part
+                for leaf in prunable_leaves:
                     candidates.append((idx, leaf, leaf.marks.value))
         
         if not candidates:

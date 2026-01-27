@@ -149,6 +149,10 @@ class KeywordPanel(QWidget):
         self.metadata_root: Optional[Path] = None
         self.keyword_service: Optional[KeywordSearchService] = None
         
+        # Year and paper filters (set by BuildTab)
+        self.year_filter: Optional[List[int]] = None  # None = all years
+        self.paper_filter: Optional[List[int]] = None  # None = all papers
+        
         # Results storage  
         self.preview_results: Dict[str, Set[str]] = {}  # keyword -> question IDs
         self.preview_label_results: Dict[str, Dict[str, Set[str]]] = {}  # keyword -> qid -> labels
@@ -257,6 +261,25 @@ class KeywordPanel(QWidget):
             # Clear cache on force refresh
             self.keyword_service.clear_cache(exam_code)
             logger.debug(f"Cleared cache for {exam_code}")
+    
+    def set_filters(
+        self, 
+        years: Optional[List[int]] = None, 
+        papers: Optional[List[int]] = None
+    ) -> None:
+        """
+        Set year and paper filters for keyword search results.
+        
+        When filters are set, preview results will only show questions
+        matching the specified years and/or papers.
+        
+        Args:
+            years: List of years to include, or None for all years
+            papers: List of paper numbers to include, or None for all papers
+        """
+        self.year_filter = years
+        self.paper_filter = papers
+        logger.debug(f"Keyword panel filters set: years={years}, papers={papers}")
     
     def _add_keyword_row(self, value: str = "", count: int = 0, progress: int = 0):
         """Add a new keyword row."""
@@ -495,8 +518,11 @@ class KeywordPanel(QWidget):
         self.search_worker.start()
     
     def _apply_preview_results(self, result: KeywordSearchResult, keywords: List[str]):
-        """Apply preview results to UI."""
+        """Apply preview results to UI, respecting year/paper filters."""
         try:
+            # 0. Apply year/paper filters to the result
+            result = self._filter_results_by_year_paper(result)
+            
             # 1. Identify currently pinned QIDs
             pinned_ids = self.get_pinned_ids()
             pinned_qids = set()
@@ -610,6 +636,72 @@ class KeywordPanel(QWidget):
             row["progress"].setVisible(False)
             row["count_label"].setText("")
             row["matches_text"].setVisible(False)
+    
+    def _filter_results_by_year_paper(self, result: KeywordSearchResult) -> KeywordSearchResult:
+        """
+        Filter search results by year and paper filters.
+        
+        Args:
+            result: Original search result from keyword service
+            
+        Returns:
+            Filtered result with only questions matching the year/paper filters
+        """
+        # If no filters are active, return as-is
+        if self.year_filter is None and self.paper_filter is None:
+            return result
+        
+        # Identify which question IDs pass the filter
+        passing_qids = set()
+        for qid, question in result.questions.items():
+            year_ok = self.year_filter is None or question.year in self.year_filter
+            paper_ok = self.paper_filter is None or question.paper in self.paper_filter
+            if year_ok and paper_ok:
+                passing_qids.add(qid)
+        
+        # If all pass (or none filtered), return as-is
+        if len(passing_qids) == len(result.questions):
+            return result
+        
+        # Log filter effect
+        filtered_count = len(result.questions) - len(passing_qids)
+        if filtered_count > 0:
+            logger.debug(f"Year/paper filter removed {filtered_count} questions from preview")
+        
+        # Filter questions dict
+        filtered_questions = {
+            qid: q for qid, q in result.questions.items() 
+            if qid in passing_qids
+        }
+        
+        # Filter keyword_hits (keyword -> set of qids)
+        filtered_hits = {}
+        for kw, qids in result.keyword_hits.items():
+            filtered_hits[kw] = qids & passing_qids
+        
+        # Filter keyword_label_hits (keyword -> qid -> labels)
+        filtered_label_hits = {}
+        for kw, qid_labels in result.keyword_label_hits.items():
+            filtered_label_hits[kw] = {
+                qid: labels for qid, labels in qid_labels.items()
+                if qid in passing_qids
+            }
+        
+        # Filter aggregate_labels (qid -> labels)
+        filtered_aggregate = {
+            qid: labels for qid, labels in result.aggregate_labels.items()
+            if qid in passing_qids
+        }
+        
+        # Import here to avoid circular imports
+        from gcse_toolkit.gui_v2.services.keyword_service import EnrichedKeywordResult
+        
+        return EnrichedKeywordResult(
+            keyword_hits=filtered_hits,
+            keyword_label_hits=filtered_label_hits,
+            aggregate_labels=filtered_aggregate,
+            questions=filtered_questions,
+        )
     
     def _refresh_matches_view(self):
         """Refresh the matched questions view."""
