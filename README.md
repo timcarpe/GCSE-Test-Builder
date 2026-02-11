@@ -13,6 +13,12 @@ Teachers and students can:
 - Generate custom practice papers targeting specific marks
 - Include or exclude mark schemes
 
+## Extract Exams
+<img width="1390" height="860" alt="Screenshot 2026-02-11 at 10 58 02" src="https://github.com/user-attachments/assets/fa24ea8d-c54d-4b25-a467-56267a3b0ca6" />
+
+## Build Exams
+<img width="1390" height="921" alt="Screenshot 2026-02-11 at 10 58 25" src="https://github.com/user-attachments/assets/ab3f556e-fde3-4958-940a-d60bc8ba5b14" />
+
 ## How It Works
 
 1. **Extract** - Drop your PDF exam papers into the input folder and click Extract
