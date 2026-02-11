@@ -5,6 +5,15 @@ All notable changes to GCSE Test Builder will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.5] - 2026-02-11
+
+### Fixed
+- **Bounds Calculator: Fraction Cutoff**: Added `TOP_PADDING_PX` (6px) to part bounds calculation to prevent math content (fractions, exponents) above the label baseline from being clipped.
+- **Builder: Footer Overlap**: Fixed critical pagination bug where atomic groups could cross question boundaries.
+  - Previously, a context slice at the end of a question would chain into the *next* question's header, creating oversized atomic groups.
+  - These groups would bypass page-bottom checks when placed at the start of a page, causing content to overlap the footer.
+  - `_get_atomic_group` now strictly respects question ID boundaries.
+
 ## [1.2.4] - 2026-02-11
 
 ### Fixed

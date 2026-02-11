@@ -76,8 +76,14 @@ class TestCalculateAllBounds:
         )
         
         # Assert
-        assert result["1"].bottom <= result["1(a)"].top + default_config.overlap_tolerance_px
-        assert result["1(a)"].bottom <= result["1(b)"].top + default_config.overlap_tolerance_px
+        # Assert
+        # Phase 6.9: Bounds now extend upwards by TOP_PADDING_PX (6px)
+        # So overlap with previous detected_bottom is expected
+        TOP_PADDING_PX = 6
+        allowed_overlap = default_config.overlap_tolerance_px + TOP_PADDING_PX
+        
+        assert result["1"].bottom <= result["1(a)"].top + allowed_overlap
+        assert result["1(a)"].bottom <= result["1(b)"].top + allowed_overlap
 
     def test_calculate_all_bounds_when_marks_present_then_clamps_to_marks(self):
         """Test that bounds are clamped to mark box positions."""

@@ -47,6 +47,7 @@ logger = logging.getLogger(__name__)
 
 # Phase 6.9: Bounds calculation padding
 BOUNDS_PADDING_PX = 5
+TOP_PADDING_PX = 6  # Extra top clearance for fractions/exponents above label baseline
 
 # Phase 6.9: Clustering thresholds
 PAGE_GAP_THRESHOLD_PX = 200  # Y-gap indicating new page
@@ -194,8 +195,8 @@ def calculate_all_bounds(
             padding=BOUNDS_PADDING_PX,
         )
         
-        # Vertical bounds (unchanged)
-        top = int(part.detected_top)
+        # Vertical bounds — apply top padding for fraction/exponent clearance
+        top = max(0, int(part.detected_top) - TOP_PADDING_PX)
         bottom = int(part.detected_bottom)
         
         result[part.label] = SliceBounds(

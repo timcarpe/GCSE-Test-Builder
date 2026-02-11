@@ -220,3 +220,82 @@ class TestPaginatorWithContextSpacing:
         # P1: 40
         # P2: 40 + 100 + 50 = 190
         assert result.pages[0].placements[1].top == 190
+
+    def test_cross_question_context_does_not_chain_into_next_question(self, mock_asset_factory):
+        """
+        Regression: When a context is the last asset for a question (leaf was
+        skipped due to overlap), _get_atomic_group must NOT chain into the next
+        question's header. Without this fix, the paginator creates an oversized
+        atomic group that overflows past page_bottom into the footer zone.
+
+        Reproduces the page-5 footer overlap bug from build
+        20260211-083536__m40__s41750.
+        """
+        config = LayoutConfig(
+            page_height=2339,
+            margin_top=50,
+            margin_bottom=120,
+            context_child_spacing=20,
+            inter_part_spacing=20,
+        )
+        # page_bottom = 2339 - 120 = 2219, available = 2169
+
+        # Filler to push us near page_bottom (simulate pages 1-4 content ending)
+        # Leave only 400px on current page
+        filler = mock_asset_factory(1719, question_id="q_prev", part_label="prev_leaf")
+
+        # Question A: header + context only (leaf was skipped)
+        q_a_header = mock_asset_factory(60, question_id="q_a", part_label="__header__", is_header=True)
+        q_a_context = mock_asset_factory(800, question_id="q_a", part_label="2_context")
+
+        # Question B: header + context + leaf
+        q_b_header = mock_asset_factory(60, question_id="q_b", part_label="__header__", is_header=True)
+        q_b_context = mock_asset_factory(500, question_id="q_b", part_label="1_context")
+        q_b_leaf = mock_asset_factory(400, question_id="q_b", part_label="1(c)")
+
+        assets = [filler, q_a_header, q_a_context, q_b_header, q_b_context, q_b_leaf]
+
+        result = paginate(assets, config)
+
+        # Key assertion: q_a and q_b must be separate atomic groups.
+        # q_a (header + context = 870px total with spacing) doesn't fit in 400px
+        #   remaining, so it moves to a new page.
+        # q_b is a separate group and should fill after q_a or on the next page.
+        # The old bug would create one 5-item group that overflows page_bottom.
+
+        # Find which page q_b_leaf is on
+        leaf_page = None
+        for page in result.pages:
+            for p in page.placements:
+                if p.asset is q_b_leaf:
+                    leaf_page = page
+                    break
+
+        assert leaf_page is not None, "q_b_leaf should be placed"
+
+        # The bottom of q_b_leaf must not exceed page_bottom (2219)
+        leaf_placement = next(p for p in leaf_page.placements if p.asset is q_b_leaf)
+        leaf_bottom = leaf_placement.top + q_b_leaf.height
+        page_bottom = config.page_height - config.margin_bottom
+        assert leaf_bottom <= page_bottom, (
+            f"Leaf bottom ({leaf_bottom}) exceeds page_bottom ({page_bottom}), "
+            f"content overflows into footer zone"
+        )
+
+    def test_context_only_question_becomes_standalone_group(self, mock_asset_factory):
+        """A question with only header + context (no leaf) should be a 2-item group."""
+        from gcse_toolkit.builder_v2.layout.paginator import _get_atomic_group
+
+        q_a_header = mock_asset_factory(60, question_id="q_a", part_label="__header__", is_header=True)
+        q_a_context = mock_asset_factory(400, question_id="q_a", part_label="2_context")
+        q_b_header = mock_asset_factory(60, question_id="q_b", part_label="__header__", is_header=True)
+
+        assets = [q_a_header, q_a_context, q_b_header]
+
+        group = _get_atomic_group(0, assets)
+
+        # Must stop at question boundary
+        assert len(group) == 2
+        assert group[0] is q_a_header
+        assert group[1] is q_a_context
+

@@ -109,6 +109,12 @@ def paginate(
         total_group_height = simulated_y - temp_y
         space_left = page_bottom - current_height
         
+        if total_group_height > space_left and is_start_of_page:
+            logger.warning(
+                f"Atomic group overflows page {page_index}: "
+                f"{total_group_height}px needed, {space_left}px available"
+            )
+
         if total_group_height > space_left and not is_start_of_page:
             # Group doesn't fit - start new page
             pages.append(PagePlan(
@@ -192,6 +198,10 @@ def _get_atomic_group(start_idx: int, assets: List[SliceAsset]) -> List[SliceAss
         # Check if we should extend the group to include the next asset
         should_extend = False
         
+        if current.question_id != next_asset.question_id:
+            # Never chain across question boundaries
+            break
+
         if current.is_text_header:
             # Header always grabs the next item (context or content)
             should_extend = True
