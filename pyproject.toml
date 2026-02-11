@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "gcse-test-builder"
-version = "1.2.3"
+version = "1.2.4"
 description = "GCSE Exam extraction and test builder"
 readme = "README.md"
 requires-python = ">=3.10"

@@ -234,6 +234,98 @@ class TestBoundsFromDetections:
         assert result[0].label == "1"
         assert result[0].kind == "question"
 
+    def test_bounds_from_detections_single_part_uses_mark_bottom(self):
+        """Single-part question should cap bottom at mark box, not page end."""
+        marks = [
+            MarkBox(value=5, y_position=380, bbox=(450, 380, 480, 420)),
+        ]
+        
+        result = bounds_from_detections(
+            question_num=1,
+            letters=[],
+            romans=[],
+            composite_height=800,
+            marks=marks,
+        )
+        
+        assert len(result) == 1
+        root = result[0]
+        assert root.label == "1"
+        # Bottom should be mark bottom plus padding (5) but never exceed composite
+        assert root.detected_bottom == 425
+
+    def test_bounds_from_detections_unsorted_letters_produce_correct_bounds(self):
+        """Unsorted letter inputs should produce same bounds as sorted inputs."""
+        # Arrange - letters deliberately out of Y-order
+        unsorted_letters = [
+            PartLabel(label="b", kind="letter", y_position=300, bbox=(50, 300, 70, 320)),
+            PartLabel(label="a", kind="letter", y_position=100, bbox=(50, 100, 70, 120)),
+        ]
+        sorted_letters = [
+            PartLabel(label="a", kind="letter", y_position=100, bbox=(50, 100, 70, 120)),
+            PartLabel(label="b", kind="letter", y_position=300, bbox=(50, 300, 70, 320)),
+        ]
+
+        # Act
+        result_unsorted = bounds_from_detections(
+            question_num=1, letters=unsorted_letters, romans=[], composite_height=500,
+        )
+        result_sorted = bounds_from_detections(
+            question_num=1, letters=sorted_letters, romans=[], composite_height=500,
+        )
+
+        # Assert - same labels and same bounds regardless of input order
+        unsorted_map = {p.label: (p.detected_top, p.detected_bottom) for p in result_unsorted}
+        sorted_map = {p.label: (p.detected_top, p.detected_bottom) for p in result_sorted}
+        assert unsorted_map == sorted_map
+
+    def test_bounds_from_detections_last_letter_clamps_to_mark_bottom(self):
+        """Last letter with no own mark should clamp to max mark bottom, not composite_height."""
+        # Arrange - two letters, mark only on (a), none on last letter (b)
+        letters = [
+            PartLabel(label="a", kind="letter", y_position=100, bbox=(50, 100, 70, 120)),
+            PartLabel(label="b", kind="letter", y_position=300, bbox=(50, 300, 70, 320)),
+        ]
+        marks = [
+            # Mark for (a) at y=200, bottom=230
+            MarkBox(value=3, y_position=200, bbox=(700, 200, 750, 230)),
+        ]
+
+        # Act
+        result = bounds_from_detections(
+            question_num=1, letters=letters, romans=[], composite_height=800, marks=marks,
+        )
+
+        # Assert - (b) is the last letter with no mark; should clamp to max mark bottom + 5
+        part_b = next(p for p in result if p.label == "1(b)")
+        assert part_b.detected_bottom == 235  # 230 + BOUNDS_PADDING_PX (5)
+        assert part_b.detected_bottom < 800   # NOT composite_height
+
+    def test_bounds_from_detections_last_roman_clamps_to_mark_bottom(self):
+        """Last roman with no own mark should clamp to max mark bottom, not composite_height."""
+        # Arrange - one letter with two romans, mark only on (i), none on last roman (ii)
+        letters = [
+            PartLabel(label="a", kind="letter", y_position=100, bbox=(50, 100, 70, 120)),
+        ]
+        romans = [
+            PartLabel(label="i", kind="roman", y_position=150, bbox=(80, 150, 100, 170)),
+            PartLabel(label="ii", kind="roman", y_position=300, bbox=(80, 300, 100, 320)),
+        ]
+        marks = [
+            # Mark for (i) at y=200, bottom=230
+            MarkBox(value=2, y_position=200, bbox=(700, 200, 750, 230)),
+        ]
+
+        # Act
+        result = bounds_from_detections(
+            question_num=1, letters=letters, romans=romans, composite_height=800, marks=marks,
+        )
+
+        # Assert - (ii) is the last roman with no mark; should clamp to max mark bottom + 5
+        part_ii = next(p for p in result if p.label == "1(a)(ii)")
+        assert part_ii.detected_bottom == 235  # 230 + BOUNDS_PADDING_PX (5)
+        assert part_ii.detected_bottom < 800   # NOT composite_height
+
 
 class TestBoundsValidation:
     """Tests for invalid bounds detection."""

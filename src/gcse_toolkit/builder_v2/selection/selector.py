@@ -338,6 +338,9 @@ class Selector:
                     elif self.config.part_mode == PartMode.PRUNE:
                         # PRUNE: Remove mismatched from tail only (contiguous)
                         allowed_labels = _filter_topic_from_tail(q, topic_set)
+                        # If nothing in the question matches the requested topics, skip it
+                        if allowed_labels is None:
+                            continue
                     else:  # SKIP
                         # SKIP: Remove all mismatched from anywhere
                         allowed_labels = {
@@ -404,7 +407,7 @@ class Selector:
             # Pick best question for this topic
             best = self._pick_best_for_topic(candidates, topic)
             if best:
-                self._add_selection(best)
+                self._add_selection(best, origin="normal")
     
     def _pick_best_for_topic(
         self, candidates: List[QuestionOptions], target_topic: str
@@ -601,7 +604,8 @@ class Selector:
                 logger.debug(f"Force-selecting pinned question {qid} (exceeds budget)")
         
         if option:
-            self._add_selection(option, is_keyword=is_keyword)
+            origin = "keyword" if is_keyword else ("pinned" if force else "normal")
+            self._add_selection(option, origin=origin)
             if force:
                 logger.debug(f"Selected pinned question: {qid}")
             else:
@@ -668,7 +672,7 @@ class Selector:
                 option = self._rng.choice(fitting)
             
             # Add this option
-            self._add_selection(option)
+            self._add_selection(option, origin="normal")
     
     # ─────────────────────────────────────────────────────────────────────────
     # Step 5: Pruning
@@ -797,17 +801,16 @@ class Selector:
     # Helpers
     # ─────────────────────────────────────────────────────────────────────────
     
-    def _add_selection(self, plan: SelectionPlan, is_keyword: bool = False) -> None:
+    def _add_selection(self, plan: SelectionPlan, *, origin: str = "normal") -> None:
         """Add a plan to the selection and track covered topics."""
         self._selected.append(plan)
         self._used_question_ids.add(plan.question.id)
         
         # Track statistics
-        if is_keyword:
+        if origin == "keyword":
             self._keyword_marks += plan.marks
-            # Number of leaf parts added
             self._keyword_parts_count += len(plan.included_leaves)
-        else:
+        elif origin == "pinned":
             self._pinned_marks += plan.marks
         
         # Add all covered topics from INCLUDED parts

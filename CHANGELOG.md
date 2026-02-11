@@ -5,6 +5,28 @@ All notable changes to GCSE Test Builder will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.4] - 2026-02-11
+
+### Fixed
+- **Bounds Calculator: Unsorted Letters Bug**: Fixed bug where `bounds_from_detections` used the original unsorted `letters` list for root bottom and next-sibling lookups, producing incorrect bounds when input letters were not pre-sorted by Y-position.
+- **Bounds Calculator: Last-Part Fallback**: Last letter and last roman parts now clamp their bottom to the maximum mark box bottom instead of `composite_height` when no mark is directly associated with them.
+- **Pipeline: Duplicate Question IDs**: Added deduplication guard to prevent duplicate `question_id` entries in `questions.jsonl`.
+- **Pipeline: Inaccurate Log Message**: Corrected log message to report actual number of records written instead of total processed.
+- **Selector: Null Guard for Topic Filter**: Added guard for `_filter_topic_from_tail` returning `None`, preventing potential crashes.
+- **Selector: Mark Accounting Bug**: Refactored `_add_selection` to use an `origin` parameter (`"normal"`, `"keyword"`, `"pinned"`), fixing an accounting bug where normal selections inflated pinned marks.
+
+### Changed
+- **Composer: Resource Management**: Refactored `CompositeImageProvider` usage to context manager (`with` statement) for proper resource closure.
+- **Documentation**: Corrected Plugin Development link in README.md.
+
+### Removed
+- Dead import (`locked_append_jsonl`) and unused import (`datetime`) from `pipeline.py`.
+- Unused `import pytest` from `test_syllabus_parser.py`.
+
+### Testing
+- Added 3 new bounds calculator tests: unsorted letters, last-letter mark clamping, last-roman mark clamping.
+- Renamed `tests/repro_backfill_warning.py` to `tests/test_repro_backfill_warning.py` for pytest discovery.
+
 ## [1.2.3] - 2026-01-27
 
 ### Fixed

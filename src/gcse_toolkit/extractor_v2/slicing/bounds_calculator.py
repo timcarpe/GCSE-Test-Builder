@@ -761,10 +761,20 @@ def bounds_from_detections(
     
     parts: List[PartBounds] = []
     
+    # Sort letters by Y-position upfront (input may be unsorted)
+    sorted_letters = sorted(letters, key=lambda l: l.y_position)
+    
     # Root question part
     root_top = 0
     # Determine basic root bottom
-    root_bottom = letters[0].y_position if letters else composite_height
+    if sorted_letters:
+        root_bottom = sorted_letters[0].y_position
+    elif marks:
+        # Single-part question with marks: clamp bottom to mark box instead of page end
+        max_mark_bottom = max(m.bbox[3] for m in marks)
+        root_bottom = min(composite_height, max_mark_bottom + BOUNDS_PADDING_PX)
+    else:
+        root_bottom = composite_height
     
     # Placeholder for root (will finalize after letters)
     root_part = PartBounds(
@@ -777,13 +787,11 @@ def bounds_from_detections(
     parts.append(root_part)
     
     # Letter parts
-    # Fix: Ensure letters are sorted by Y-position to prevent "Children must be sorted" error
-    sorted_letters = sorted(letters, key=lambda l: l.y_position)
     
     for i, letter in enumerate(sorted_letters):
         # Find romans belonging to this letter
         letter_romans = []
-        next_letter_y = letters[i + 1].y_position if i + 1 < len(letters) else composite_height
+        next_letter_y = sorted_letters[i + 1].y_position if i + 1 < len(sorted_letters) else composite_height
         
         for roman in romans:
             if letter.y_position <= roman.y_position < next_letter_y:
@@ -816,7 +824,12 @@ def bounds_from_detections(
                 # STRICT FIX: Clamp to next letter to prevent overlap
                 letter_bottom = min(letter_mark.bbox[3], next_letter_y)
             else:
-                letter_bottom = next_letter_y
+                # For last letter (fallback = composite_height), clamp to max mark bottom
+                if next_letter_y == composite_height and marks:
+                    max_mark_bottom = max(m.bbox[3] for m in marks)
+                    letter_bottom = min(composite_height, max_mark_bottom + BOUNDS_PADDING_PX)
+                else:
+                    letter_bottom = next_letter_y
                 
         # Check for inline letter: e.g. "(a) (i)"
         letter_is_inline = False
@@ -876,7 +889,12 @@ def bounds_from_detections(
                 # STRICT FIX: Clamp to next roman to prevent overlap
                 roman_bottom = min(this_roman_mark.bbox[3], next_roman_y)
             else:
-                roman_bottom = next_roman_y
+                # For last roman (fallback cascades to composite_height), clamp to max mark bottom
+                if next_roman_y == composite_height and marks:
+                    max_mark_bottom = max(m.bbox[3] for m in marks)
+                    roman_bottom = min(composite_height, max_mark_bottom + BOUNDS_PADDING_PX)
+                else:
+                    roman_bottom = next_roman_y
             
             # Check if roman is inline with LETTER (e.g. "(a) (i)")
             roman_is_inline = False

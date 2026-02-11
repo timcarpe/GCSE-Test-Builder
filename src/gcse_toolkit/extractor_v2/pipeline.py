@@ -28,6 +28,7 @@ from __future__ import annotations
 import json
 import logging
 import re
+
 from dataclasses import dataclass, field, replace
 from pathlib import Path
 from typing import Any, Dict, List, Optional
@@ -1011,6 +1012,7 @@ def _extract_year(pdf_name: str) -> int:
     if match:
         year = int(match.group(1))
         return 2000 + year if year < 50 else 1900 + year
+    # For unrecognized filenames, default to 2024 to match existing schema expectations/tests
     return 2024
 
 
@@ -1053,16 +1055,34 @@ def _write_centralized_metadata(
         logger.debug(f"No metadata to write for {exam_code}")
         return
     
-    from .file_locking import locked_append_jsonl
     
     metadata_path = output_dir / exam_code / "_metadata" / "questions.jsonl"
     
-    # PARALLEL SAFE: Use locked append for each record
-    # This allows concurrent PDF extractions to safely append to the same file
+    # PARALLEL SAFE: Append new records while preserving existing content.
+    # To avoid duplicates, skip writing if question_id already present.
     try:
-        for record in metadata_records:
-            locked_append_jsonl(metadata_path, record)
-        logger.debug(f"Appended {len(metadata_records)} metadata records to {metadata_path}")
+        from .file_locking import locked_file
+        metadata_path.parent.mkdir(parents=True, exist_ok=True)
+
+        with locked_file(metadata_path, 'a+') as f:
+            f.seek(0)
+            existing_ids = set()
+            for line in f:
+                try:
+                    record = json.loads(line)
+                    existing_ids.add(record.get("question_id"))
+                except json.JSONDecodeError:
+                    # Preserve legacy/non-JSON lines by leaving them as-is
+                    continue
+
+            written = 0
+            for record in metadata_records:
+                qid = record.get("question_id")
+                if qid in existing_ids:
+                    continue
+                f.write(json.dumps(record, ensure_ascii=False) + '\n')
+                written += 1
+        logger.debug(f"Appended {written}/{len(metadata_records)} metadata records to {metadata_path}")
     except OSError as e:
         logger.error(f"Failed to write centralized metadata: {e}")
         raise

@@ -65,7 +65,7 @@ Adding new exams is possible via the plugin system.
 ## Documentation
 
 - [Architecture Overview](docs/architecture/README.md)
-- [Plugin Development](scripts/Plugin%20Generation/README.md)
+- [Plugin Development](src/gcse_toolkit/plugins/README.md)
 
 ## License
 

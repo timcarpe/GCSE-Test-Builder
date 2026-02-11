@@ -1,4 +1,5 @@
 import sys
+
 from pathlib import Path
 
 sys.path.append(str(Path("scripts/Plugin Generation Simplified/1) Generate Initial Plugin")))
@@ -25,4 +26,3 @@ def test_syllabus_parser_v2_topics_and_subtopics():
     # Subtopics may be empty depending on syllabus structure.
     for topic in topics:
         assert topic.description, f"Topic {topic.code} should have a description"
-
