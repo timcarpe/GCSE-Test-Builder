@@ -81,3 +81,6 @@ Polyform Noncommercial License 1.0.0 - See [LICENSE.txt](LICENSE.txt)
 
 This tool is for educational use. Users are responsible for ensuring their 
 use of exam materials complies with relevant copyright and licensing terms.
+
+> [!NOTE]
+> No copyrighted material is included in the source code for GCSE Test Builder - just clever detection and pattern matching!
