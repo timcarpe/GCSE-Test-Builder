@@ -13,11 +13,14 @@ Teachers and students can:
 - Generate custom practice papers targeting specific marks
 - Include or exclude mark schemes
 
-## Extract Exams
+## Exam Extractor
 <img width="1390" height="860" alt="Screenshot 2026-02-11 at 10 58 02" src="https://github.com/user-attachments/assets/fa24ea8d-c54d-4b25-a467-56267a3b0ca6" />
 
-## Build Exams
+## Exam Builder - Topic Mode
 <img width="1390" height="921" alt="Screenshot 2026-02-11 at 10 58 25" src="https://github.com/user-attachments/assets/ab3f556e-fde3-4958-940a-d60bc8ba5b14" />
+
+## Exam Builder - Keyword Mode
+<img width="1390" height="921" alt="Screenshot 2026-02-11 at 11 04 48" src="https://github.com/user-attachments/assets/7d359ca6-3a2f-4f4d-ab55-027f5ef00c07" />
 
 ## How It Works
 
